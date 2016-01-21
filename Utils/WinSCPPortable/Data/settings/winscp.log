@@ -1,0 +1,1628 @@
+. 2014-08-25 12:41:54.289 --------------------------------------------------------------------------
+. 2014-08-25 12:41:54.290 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2014-08-25 12:41:54.291 Configuration: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini
+. 2014-08-25 12:41:54.292 Local account: thinkpad\alexander
+. 2014-08-25 12:41:54.292 Working directory: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP
+. 2014-08-25 12:41:54.292 Process ID: 36
+. 2014-08-25 12:41:54.292 Command-line: "Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini" /log="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.log"
+. 2014-08-25 12:41:54.292 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/30/2014, DST End: 10/26/2014
+. 2014-08-25 12:41:54.292 Login time: Monday, August 25, 2014 12:41:54 PM
+. 2014-08-25 12:41:54.292 --------------------------------------------------------------------------
+. 2014-08-25 12:41:54.292 Session name: machinekit@192.168.7.2 (Ad-Hoc site)
+. 2014-08-25 12:41:54.292 Host name: 192.168.7.2 (Port: 22)
+. 2014-08-25 12:41:54.292 User name: machinekit (Password: Yes, Key file: No)
+. 2014-08-25 12:41:54.292 Tunnel: No
+. 2014-08-25 12:41:54.292 Transfer Protocol: SFTP (SCP)
+. 2014-08-25 12:41:54.292 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2014-08-25 12:41:54.292 Proxy: none
+. 2014-08-25 12:41:54.292 Send buffer: 262144
+. 2014-08-25 12:41:54.292 SSH protocol version: 2; Compression: No
+. 2014-08-25 12:41:54.292 Bypass authentication: No
+. 2014-08-25 12:41:54.292 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2014-08-25 12:41:54.292 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2014-08-25 12:41:54.292 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2014-08-25 12:41:54.292 Simple channel: Yes
+. 2014-08-25 12:41:54.292 Return code variable: Autodetect; Lookup user groups: A
+. 2014-08-25 12:41:54.292 Shell: default
+. 2014-08-25 12:41:54.293 EOL: 0, UTF: 2
+. 2014-08-25 12:41:54.293 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2014-08-25 12:41:54.293 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2014-08-25 12:41:54.293 SFTP Bugs: A,A
+. 2014-08-25 12:41:54.293 SFTP Server: default
+. 2014-08-25 12:41:54.293 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2014-08-25 12:41:54.293 Cache directory changes: Yes, Permanent: Yes
+. 2014-08-25 12:41:54.293 DST mode: 1; Timezone offset: 0h 0m
+. 2014-08-25 12:41:54.293 --------------------------------------------------------------------------
+. 2014-08-25 12:41:54.371 Looking up host "192.168.7.2"
+. 2014-08-25 12:41:54.371 Connecting to 192.168.7.2 port 22
+. 2014-08-25 12:41:54.426 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2014-08-25 12:41:54.426 Using SSH protocol version 2
+. 2014-08-25 12:41:54.426 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2014-08-25 12:41:54.430 Doing Diffie-Hellman group exchange
+. 2014-08-25 12:41:54.447 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2014-08-25 12:41:55.526 Verifying host key rsa2 0x10001,0xbdbbed7b8983aa76 ed05135f507967ba 95035773b2cd1a6e 8a0f7fe28eaebeb0 297ddb345901ca86 435529940b19afdb b304cb1d689326bb dbee794b70dbe540 abf3f62f13b29c5a b48067b9aa414e54 671f420e50e9152b ff3d89fc4f120669 ad88188bb9cf7aaf 28ca0300cb3dcbf0 75e503dd3b3b1edd e6e98fcc60f4ebbc 51a399e64478754c 9e25c24d98f72025 feff1a086b3355be 6c27bc8f38b524d7 5df845f34521d00d 58a205c3a0874df2 a140bbcdd7c9f193 c8baf1c310d99abc 429d244d3a8b4f61 0bd85c79b1b196f5 4af36cf3eeccd2dc 3db844d9bc655a62 36a65e27690c132b 4f78f8e83ac90eaf 19831825589b4f38 f14ccee16d60c63d  with fingerprint ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:41:55.539 Asking user:
+. 2014-08-25 12:41:55.539 **Continue connecting to an unknown server and add its host key to a cache?**
+. 2014-08-25 12:41:55.539 
+. 2014-08-25 12:41:55.539 The server's host key was not found in the cache. You have no guarantee that the server is the computer you think it is.
+. 2014-08-25 12:41:55.539 
+. 2014-08-25 12:41:55.539 The server's rsa2 key fingerprint is:
+. 2014-08-25 12:41:55.539 ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:41:55.539 
+. 2014-08-25 12:41:55.539 If you trust this host, press Yes. To connect without adding host key to the cache, press No. To abandon the connection press Cancel. ()
+. 2014-08-25 12:42:02.752 Host key fingerprint is:
+. 2014-08-25 12:42:02.752 ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:42:02.752 Initialised AES-256 SDCTR client->server encryption
+. 2014-08-25 12:42:02.752 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2014-08-25 12:42:02.752 Initialised AES-256 SDCTR server->client encryption
+. 2014-08-25 12:42:02.752 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2014-08-25 12:42:02.754 Using username "machinekit".
+. 2014-08-25 12:42:07.251 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 12:42:07.251 Using stored password.
+. 2014-08-25 12:42:07.303 Sent password
+. 2014-08-25 12:42:07.380 Access granted
+. 2014-08-25 12:42:07.380 Opening session as main channel
+. 2014-08-25 12:42:07.393 Opened main channel
+. 2014-08-25 12:42:07.437 Started a shell/command
+. 2014-08-25 12:42:07.458 --------------------------------------------------------------------------
+. 2014-08-25 12:42:07.460 Using SFTP protocol.
+. 2014-08-25 12:42:07.460 Doing startup conversation with host.
+> 2014-08-25 12:42:07.511 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2014-08-25 12:42:07.512 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2014-08-25 12:42:07.515 SFTP version 3 negotiated.
+. 2014-08-25 12:42:07.516 Unknown server extension posix-rename@openssh.com="1"
+. 2014-08-25 12:42:07.516 Supports statvfs@openssh.com extension version "2"
+. 2014-08-25 12:42:07.516 Unknown server extension fstatvfs@openssh.com="2"
+. 2014-08-25 12:42:07.516 Unknown server extension hardlink@openssh.com="1"
+. 2014-08-25 12:42:07.516 We believe the server has signed timestamps bug
+. 2014-08-25 12:42:07.516 We will use UTF-8 strings when appropriate
+. 2014-08-25 12:42:07.516 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2014-08-25 12:42:07.566 Getting current directory name.
+. 2014-08-25 12:42:07.566 Getting real path for '.'
+> 2014-08-25 12:42:07.566 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2014-08-25 12:42:07.567 Type: SSH_FXP_NAME, Size: 53, Number: 16
+. 2014-08-25 12:42:07.568 Real path is '/home/machinekit'
+. 2014-08-25 12:42:07.717 Listing directory "/home/machinekit".
+> 2014-08-25 12:42:07.717 Type: SSH_FXP_OPENDIR, Size: 25, Number: 267
+< 2014-08-25 12:42:07.718 Type: SSH_FXP_HANDLE, Size: 13, Number: 267
+> 2014-08-25 12:42:07.718 Type: SSH_FXP_READDIR, Size: 13, Number: 524
+< 2014-08-25 12:42:07.722 Type: SSH_FXP_NAME, Size: 1817, Number: 524
+> 2014-08-25 12:42:07.722 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2014-08-25 12:42:07.768 Type: SSH_FXP_STATUS, Size: 28, Number: 780
+< 2014-08-25 12:42:07.769 Status code: 1
+> 2014-08-25 12:42:07.769 Type: SSH_FXP_CLOSE, Size: 13, Number: 1028
+. 2014-08-25 12:42:07.769 .ssh;d;4096;2014-08-20T15:39:42.000Z;"machinekit" [1001];"machinekit" [1001];rwx------;2
+. 2014-08-25 12:42:07.769 linuxcnc_debug.txt;-;92;2014-08-22T13:46:25.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;0
+. 2014-08-25 12:42:07.769 .Trash-1001;d;4096;2014-08-22T09:39:18.000Z;"machinekit" [1001];"machinekit" [1001];rwx------;2
+. 2014-08-25 12:42:07.769 .bash_history;-;7751;2014-08-05T23:24:34.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;2
+. 2014-08-25 12:42:07.769 linuxcnc_print.txt;-;674;2014-08-22T13:46:25.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;0
+. 2014-08-25 12:42:07.769 .axis_mdi_history;-;33;2014-08-22T12:25:03.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2014-08-25 12:42:07.769 cooltool;d;4096;2014-08-05T23:23:46.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 12:42:07.769 nc_files;d;4096;2014-08-25T09:44:49.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 12:42:07.769 .linuxcncrc;-;303;2014-08-05T23:19:14.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2014-08-25 12:42:07.769 .config;d;4096;2014-08-05T23:10:49.000Z;"machinekit" [1001];"machinekit" [1001];rwx------;2
+. 2014-08-25 12:42:07.769 .fontconfig;d;4096;2014-08-20T15:35:08.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2014-08-25 12:42:07.769 .Xauthority;-;110;2014-08-05T23:24:29.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;2
+. 2014-08-25 12:42:07.769 .axis_preferences;-;525;2014-08-05T23:23:13.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2014-08-25 12:42:07.769 ..;d;4096;2014-08-20T15:41:16.000Z;"root" [0];"root" [0];rwxr-xr-x;0
+. 2014-08-25 12:42:07.868 Startup conversation with host finished.
+. 2014-08-25 12:42:14.431 Changing directory to "nc_files".
+. 2014-08-25 12:42:14.431 Getting real path for '/home/machinekit/nc_files'
+> 2014-08-25 12:42:14.431 Type: SSH_FXP_REALPATH, Size: 34, Number: 1296
+< 2014-08-25 12:42:14.432 Type: SSH_FXP_STATUS, Size: 24, Number: 1028
+. 2014-08-25 12:42:14.433 Discarding reserved response
+< 2014-08-25 12:42:14.434 Type: SSH_FXP_NAME, Size: 71, Number: 1296
+. 2014-08-25 12:42:14.434 Real path is '/home/machinekit/nc_files'
+. 2014-08-25 12:42:14.434 Trying to open directory "/home/machinekit/nc_files".
+> 2014-08-25 12:42:14.434 Type: SSH_FXP_LSTAT, Size: 34, Number: 1543
+< 2014-08-25 12:42:14.435 Type: SSH_FXP_ATTRS, Size: 37, Number: 1543
+. 2014-08-25 12:42:14.435 Getting current directory name.
+. 2014-08-25 12:42:14.436 Listing directory "/home/machinekit/nc_files".
+> 2014-08-25 12:42:14.436 Type: SSH_FXP_OPENDIR, Size: 34, Number: 1803
+< 2014-08-25 12:42:14.437 Type: SSH_FXP_HANDLE, Size: 13, Number: 1803
+> 2014-08-25 12:42:14.437 Type: SSH_FXP_READDIR, Size: 13, Number: 2060
+< 2014-08-25 12:42:14.441 Type: SSH_FXP_NAME, Size: 437, Number: 2060
+> 2014-08-25 12:42:14.441 Type: SSH_FXP_READDIR, Size: 13, Number: 2316
+< 2014-08-25 12:42:14.441 Type: SSH_FXP_STATUS, Size: 28, Number: 2316
+< 2014-08-25 12:42:14.442 Status code: 1
+> 2014-08-25 12:42:14.442 Type: SSH_FXP_CLOSE, Size: 13, Number: 2564
+. 2014-08-25 12:42:14.442 .git;d;4096;2014-08-25T09:37:49.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2014-08-25 12:42:14.442 examples;d;4096;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 12:42:14.442 ..;d;4096;2014-08-05T23:24:29.000Z;"machinekit" [1001];"root" [0];rwxr-xr-x;0
+. 2014-08-25 12:44:53.542 Closing connection.
+. 2014-08-25 12:44:53.544 Sending special code: 12
+. 2014-08-25 12:44:53.544 Sent EOF message
+. 2014-08-25 12:45:02.335 --------------------------------------------------------------------------
+. 2014-08-25 12:45:02.337 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2014-08-25 12:45:02.337 Configuration: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini
+. 2014-08-25 12:45:02.338 Local account: thinkpad\alexander
+. 2014-08-25 12:45:02.338 Working directory: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP
+. 2014-08-25 12:45:02.338 Process ID: 40
+. 2014-08-25 12:45:02.338 Command-line: "Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini" /log="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.log"
+. 2014-08-25 12:45:02.338 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/30/2014, DST End: 10/26/2014
+. 2014-08-25 12:45:02.338 Login time: Monday, August 25, 2014 12:45:02 PM
+. 2014-08-25 12:45:02.338 --------------------------------------------------------------------------
+. 2014-08-25 12:45:02.338 Session name: machinekit@192.168.7.2 (Site)
+. 2014-08-25 12:45:02.338 Host name: 192.168.7.2 (Port: 22)
+. 2014-08-25 12:45:02.338 User name: machinekit (Password: Yes, Key file: No)
+. 2014-08-25 12:45:02.338 Tunnel: No
+. 2014-08-25 12:45:02.338 Transfer Protocol: SFTP (SCP)
+. 2014-08-25 12:45:02.338 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2014-08-25 12:45:02.338 Proxy: none
+. 2014-08-25 12:45:02.338 Send buffer: 262144
+. 2014-08-25 12:45:02.338 SSH protocol version: 2; Compression: No
+. 2014-08-25 12:45:02.338 Bypass authentication: No
+. 2014-08-25 12:45:02.338 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2014-08-25 12:45:02.338 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2014-08-25 12:45:02.338 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2014-08-25 12:45:02.338 Simple channel: Yes
+. 2014-08-25 12:45:02.338 Return code variable: Autodetect; Lookup user groups: A
+. 2014-08-25 12:45:02.338 Shell: default
+. 2014-08-25 12:45:02.338 EOL: 0, UTF: 2
+. 2014-08-25 12:45:02.338 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2014-08-25 12:45:02.338 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2014-08-25 12:45:02.339 SFTP Bugs: A,A
+. 2014-08-25 12:45:02.339 SFTP Server: default
+. 2014-08-25 12:45:02.339 Local directory: Z:\home\alexander\Documents, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2014-08-25 12:45:02.339 Cache directory changes: Yes, Permanent: Yes
+. 2014-08-25 12:45:02.339 DST mode: 1; Timezone offset: 0h 0m
+. 2014-08-25 12:45:02.339 --------------------------------------------------------------------------
+. 2014-08-25 12:45:02.482 Looking up host "192.168.7.2"
+. 2014-08-25 12:45:02.484 Connecting to 192.168.7.2 port 22
+. 2014-08-25 12:45:02.535 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2014-08-25 12:45:02.535 Using SSH protocol version 2
+. 2014-08-25 12:45:02.535 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2014-08-25 12:45:02.539 Doing Diffie-Hellman group exchange
+. 2014-08-25 12:45:02.552 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2014-08-25 12:45:03.741 Verifying host key rsa2 0x10001,0xbdbbed7b8983aa76 ed05135f507967ba 95035773b2cd1a6e 8a0f7fe28eaebeb0 297ddb345901ca86 435529940b19afdb b304cb1d689326bb dbee794b70dbe540 abf3f62f13b29c5a b48067b9aa414e54 671f420e50e9152b ff3d89fc4f120669 ad88188bb9cf7aaf 28ca0300cb3dcbf0 75e503dd3b3b1edd e6e98fcc60f4ebbc 51a399e64478754c 9e25c24d98f72025 feff1a086b3355be 6c27bc8f38b524d7 5df845f34521d00d 58a205c3a0874df2 a140bbcdd7c9f193 c8baf1c310d99abc 429d244d3a8b4f61 0bd85c79b1b196f5 4af36cf3eeccd2dc 3db844d9bc655a62 36a65e27690c132b 4f78f8e83ac90eaf 19831825589b4f38 f14ccee16d60c63d  with fingerprint ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:45:03.777 Host key matches cached key
+. 2014-08-25 12:45:03.777 Host key fingerprint is:
+. 2014-08-25 12:45:03.777 ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:45:03.777 Initialised AES-256 SDCTR client->server encryption
+. 2014-08-25 12:45:03.777 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2014-08-25 12:45:03.777 Initialised AES-256 SDCTR server->client encryption
+. 2014-08-25 12:45:03.777 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2014-08-25 12:45:03.778 Using username "machinekit".
+. 2014-08-25 12:45:04.124 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 12:45:04.125 Using stored password.
+. 2014-08-25 12:45:04.141 Sent password
+. 2014-08-25 12:45:04.218 Access granted
+. 2014-08-25 12:45:04.218 Opening session as main channel
+. 2014-08-25 12:45:04.230 Opened main channel
+. 2014-08-25 12:45:04.273 Started a shell/command
+. 2014-08-25 12:45:04.296 --------------------------------------------------------------------------
+. 2014-08-25 12:45:04.298 Using SFTP protocol.
+. 2014-08-25 12:45:04.298 Doing startup conversation with host.
+> 2014-08-25 12:45:04.349 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2014-08-25 12:45:04.350 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2014-08-25 12:45:04.350 SFTP version 3 negotiated.
+. 2014-08-25 12:45:04.350 Unknown server extension posix-rename@openssh.com="1"
+. 2014-08-25 12:45:04.350 Supports statvfs@openssh.com extension version "2"
+. 2014-08-25 12:45:04.350 Unknown server extension fstatvfs@openssh.com="2"
+. 2014-08-25 12:45:04.350 Unknown server extension hardlink@openssh.com="1"
+. 2014-08-25 12:45:04.350 We believe the server has signed timestamps bug
+. 2014-08-25 12:45:04.350 We will use UTF-8 strings when appropriate
+. 2014-08-25 12:45:04.350 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2014-08-25 12:45:04.402 Changing directory to "/home/machinekit/nc_files".
+. 2014-08-25 12:45:04.402 Getting real path for '/home/machinekit/nc_files'
+> 2014-08-25 12:45:04.402 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2014-08-25 12:45:04.403 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2014-08-25 12:45:04.403 Real path is '/home/machinekit/nc_files'
+. 2014-08-25 12:45:04.403 Trying to open directory "/home/machinekit/nc_files".
+> 2014-08-25 12:45:04.403 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2014-08-25 12:45:04.404 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2014-08-25 12:45:04.404 Getting current directory name.
+. 2014-08-25 12:45:04.553 Listing directory "/home/machinekit/nc_files".
+> 2014-08-25 12:45:04.553 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2014-08-25 12:45:04.555 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2014-08-25 12:45:04.555 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2014-08-25 12:45:04.557 Type: SSH_FXP_NAME, Size: 437, Number: 780
+> 2014-08-25 12:45:04.557 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2014-08-25 12:45:04.558 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2014-08-25 12:45:04.558 Status code: 1
+> 2014-08-25 12:45:04.558 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2014-08-25 12:45:04.558 .git;d;4096;2014-08-25T09:37:49.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2014-08-25 12:45:04.558 examples;d;4096;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 12:45:04.558 ..;d;4096;2014-08-05T23:24:29.000Z;"machinekit" [1001];"root" [0];rwxr-xr-x;0
+. 2014-08-25 12:45:04.654 Startup conversation with host finished.
+. 2014-08-25 12:45:08.510 Closing connection.
+. 2014-08-25 12:45:08.512 Sending special code: 12
+. 2014-08-25 12:45:08.512 Sent EOF message
+. 2014-08-25 12:45:27.015 --------------------------------------------------------------------------
+. 2014-08-25 12:45:27.017 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2014-08-25 12:45:27.018 Configuration: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini
+. 2014-08-25 12:45:27.019 Local account: thinkpad\alexander
+. 2014-08-25 12:45:27.019 Working directory: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP
+. 2014-08-25 12:45:27.019 Process ID: 33
+. 2014-08-25 12:45:27.019 Command-line: "Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini" /log="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.log"
+. 2014-08-25 12:45:27.019 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/30/2014, DST End: 10/26/2014
+. 2014-08-25 12:45:27.019 Login time: Monday, August 25, 2014 12:45:27 PM
+. 2014-08-25 12:45:27.019 --------------------------------------------------------------------------
+. 2014-08-25 12:45:27.019 Session name: machinekit@192.168.7.2 (Ad-Hoc site)
+. 2014-08-25 12:45:27.019 Host name: 192.168.7.2 (Port: 22)
+. 2014-08-25 12:45:27.020 User name: machinekit (Password: Yes, Key file: No)
+. 2014-08-25 12:45:27.020 Tunnel: No
+. 2014-08-25 12:45:27.020 Transfer Protocol: SFTP
+. 2014-08-25 12:45:27.020 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2014-08-25 12:45:27.020 Proxy: none
+. 2014-08-25 12:45:27.020 Send buffer: 262144
+. 2014-08-25 12:45:27.020 SSH protocol version: 2; Compression: No
+. 2014-08-25 12:45:27.020 Bypass authentication: No
+. 2014-08-25 12:45:27.020 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2014-08-25 12:45:27.020 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2014-08-25 12:45:27.020 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2014-08-25 12:45:27.020 Simple channel: Yes
+. 2014-08-25 12:45:27.020 Return code variable: Autodetect; Lookup user groups: A
+. 2014-08-25 12:45:27.020 Shell: default
+. 2014-08-25 12:45:27.020 EOL: 0, UTF: 2
+. 2014-08-25 12:45:27.020 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2014-08-25 12:45:27.020 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2014-08-25 12:45:27.020 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2014-08-25 12:45:27.020 Cache directory changes: Yes, Permanent: Yes
+. 2014-08-25 12:45:27.020 DST mode: 1; Timezone offset: 0h 0m
+. 2014-08-25 12:45:27.020 --------------------------------------------------------------------------
+. 2014-08-25 12:45:27.092 Looking up host "192.168.7.2"
+. 2014-08-25 12:45:27.094 Connecting to 192.168.7.2 port 22
+. 2014-08-25 12:45:27.144 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2014-08-25 12:45:27.144 Using SSH protocol version 2
+. 2014-08-25 12:45:27.144 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2014-08-25 12:45:27.148 Doing Diffie-Hellman group exchange
+. 2014-08-25 12:45:27.160 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2014-08-25 12:45:28.318 Verifying host key rsa2 0x10001,0xbdbbed7b8983aa76 ed05135f507967ba 95035773b2cd1a6e 8a0f7fe28eaebeb0 297ddb345901ca86 435529940b19afdb b304cb1d689326bb dbee794b70dbe540 abf3f62f13b29c5a b48067b9aa414e54 671f420e50e9152b ff3d89fc4f120669 ad88188bb9cf7aaf 28ca0300cb3dcbf0 75e503dd3b3b1edd e6e98fcc60f4ebbc 51a399e64478754c 9e25c24d98f72025 feff1a086b3355be 6c27bc8f38b524d7 5df845f34521d00d 58a205c3a0874df2 a140bbcdd7c9f193 c8baf1c310d99abc 429d244d3a8b4f61 0bd85c79b1b196f5 4af36cf3eeccd2dc 3db844d9bc655a62 36a65e27690c132b 4f78f8e83ac90eaf 19831825589b4f38 f14ccee16d60c63d  with fingerprint ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:45:28.374 Host key matches cached key
+. 2014-08-25 12:45:28.374 Host key fingerprint is:
+. 2014-08-25 12:45:28.374 ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:45:28.374 Initialised AES-256 SDCTR client->server encryption
+. 2014-08-25 12:45:28.374 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2014-08-25 12:45:28.374 Initialised AES-256 SDCTR server->client encryption
+. 2014-08-25 12:45:28.374 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2014-08-25 12:45:28.375 Using username "machinekit".
+. 2014-08-25 12:45:28.512 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 12:45:28.512 Using stored password.
+. 2014-08-25 12:45:28.531 Sent password
+. 2014-08-25 12:45:28.607 Password authentication failed
+! 2014-08-25 12:45:28.607 Access denied
+. 2014-08-25 12:45:28.634 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 12:45:37.789 Sent password
+. 2014-08-25 12:45:37.865 Access granted
+. 2014-08-25 12:45:37.865 Opening session as main channel
+. 2014-08-25 12:45:37.877 Opened main channel
+. 2014-08-25 12:45:37.920 Started a shell/command
+. 2014-08-25 12:45:37.949 --------------------------------------------------------------------------
+. 2014-08-25 12:45:37.951 Using SFTP protocol.
+. 2014-08-25 12:45:37.953 Doing startup conversation with host.
+> 2014-08-25 12:45:38.002 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2014-08-25 12:45:38.004 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2014-08-25 12:45:38.004 SFTP version 3 negotiated.
+. 2014-08-25 12:45:38.004 Unknown server extension posix-rename@openssh.com="1"
+. 2014-08-25 12:45:38.004 Supports statvfs@openssh.com extension version "2"
+. 2014-08-25 12:45:38.004 Unknown server extension fstatvfs@openssh.com="2"
+. 2014-08-25 12:45:38.004 Unknown server extension hardlink@openssh.com="1"
+. 2014-08-25 12:45:38.004 We believe the server has signed timestamps bug
+. 2014-08-25 12:45:38.004 We will use UTF-8 strings when appropriate
+. 2014-08-25 12:45:38.004 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2014-08-25 12:45:38.056 Getting current directory name.
+. 2014-08-25 12:45:38.056 Getting real path for '.'
+> 2014-08-25 12:45:38.056 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2014-08-25 12:45:38.057 Type: SSH_FXP_NAME, Size: 53, Number: 16
+. 2014-08-25 12:45:38.057 Real path is '/home/machinekit'
+. 2014-08-25 12:45:38.208 Listing directory "/home/machinekit".
+> 2014-08-25 12:45:38.208 Type: SSH_FXP_OPENDIR, Size: 25, Number: 267
+< 2014-08-25 12:45:38.209 Type: SSH_FXP_HANDLE, Size: 13, Number: 267
+> 2014-08-25 12:45:38.209 Type: SSH_FXP_READDIR, Size: 13, Number: 524
+< 2014-08-25 12:45:38.212 Type: SSH_FXP_NAME, Size: 1817, Number: 524
+> 2014-08-25 12:45:38.212 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2014-08-25 12:45:38.259 Type: SSH_FXP_STATUS, Size: 28, Number: 780
+< 2014-08-25 12:45:38.259 Status code: 1
+> 2014-08-25 12:45:38.259 Type: SSH_FXP_CLOSE, Size: 13, Number: 1028
+. 2014-08-25 12:45:38.259 .ssh;d;4096;2014-08-20T15:39:42.000Z;"machinekit" [1001];"machinekit" [1001];rwx------;2
+. 2014-08-25 12:45:38.259 linuxcnc_debug.txt;-;92;2014-08-22T13:46:25.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;0
+. 2014-08-25 12:45:38.259 .Trash-1001;d;4096;2014-08-22T09:39:18.000Z;"machinekit" [1001];"machinekit" [1001];rwx------;2
+. 2014-08-25 12:45:38.259 .bash_history;-;7751;2014-08-05T23:24:34.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;2
+. 2014-08-25 12:45:38.259 linuxcnc_print.txt;-;674;2014-08-22T13:46:25.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;0
+. 2014-08-25 12:45:38.259 .axis_mdi_history;-;33;2014-08-22T12:25:03.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2014-08-25 12:45:38.259 cooltool;d;4096;2014-08-05T23:23:46.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 12:45:38.259 nc_files;d;4096;2014-08-25T09:44:49.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 12:45:38.259 .linuxcncrc;-;303;2014-08-05T23:19:14.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2014-08-25 12:45:38.259 .config;d;4096;2014-08-05T23:10:49.000Z;"machinekit" [1001];"machinekit" [1001];rwx------;2
+. 2014-08-25 12:45:38.259 .fontconfig;d;4096;2014-08-20T15:35:08.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2014-08-25 12:45:38.259 .Xauthority;-;110;2014-08-05T23:24:29.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;2
+. 2014-08-25 12:45:38.259 .axis_preferences;-;525;2014-08-05T23:23:13.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2014-08-25 12:45:38.259 ..;d;4096;2014-08-20T15:41:16.000Z;"root" [0];"root" [0];rwxr-xr-x;0
+. 2014-08-25 12:45:38.360 Startup conversation with host finished.
+. 2014-08-25 12:45:41.917 Closing connection.
+. 2014-08-25 12:45:41.919 Sending special code: 12
+. 2014-08-25 12:45:41.921 Sent EOF message
+. 2014-08-25 12:45:50.951 --------------------------------------------------------------------------
+. 2014-08-25 12:45:50.951 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2014-08-25 12:45:50.952 Configuration: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini
+. 2014-08-25 12:45:50.953 Local account: thinkpad\alexander
+. 2014-08-25 12:45:50.953 Working directory: Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP
+. 2014-08-25 12:45:50.953 Process ID: 61
+. 2014-08-25 12:45:50.953 Command-line: "Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.ini" /log="Z:\home\alexander\ownCloud\Arbeit\BBB_RepRap\BBB_image\Windows\WinSCPPortable\Data\settings\winscp.log"
+. 2014-08-25 12:45:50.954 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/30/2014, DST End: 10/26/2014
+. 2014-08-25 12:45:50.954 Login time: Monday, August 25, 2014 12:45:50 PM
+. 2014-08-25 12:45:50.954 --------------------------------------------------------------------------
+. 2014-08-25 12:45:50.954 Session name: machinekit@192.168.7.2 (Modified site)
+. 2014-08-25 12:45:50.954 Host name: 192.168.7.2 (Port: 22)
+. 2014-08-25 12:45:50.954 User name: machinekit (Password: Yes, Key file: No)
+. 2014-08-25 12:45:50.954 Tunnel: No
+. 2014-08-25 12:45:50.954 Transfer Protocol: SFTP
+. 2014-08-25 12:45:50.954 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2014-08-25 12:45:50.954 Proxy: none
+. 2014-08-25 12:45:50.954 Send buffer: 262144
+. 2014-08-25 12:45:50.954 SSH protocol version: 2; Compression: No
+. 2014-08-25 12:45:50.954 Bypass authentication: No
+. 2014-08-25 12:45:50.954 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2014-08-25 12:45:50.954 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2014-08-25 12:45:50.954 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2014-08-25 12:45:50.954 Simple channel: Yes
+. 2014-08-25 12:45:50.954 Return code variable: Autodetect; Lookup user groups: A
+. 2014-08-25 12:45:50.954 Shell: default
+. 2014-08-25 12:45:50.954 EOL: 0, UTF: 2
+. 2014-08-25 12:45:50.954 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2014-08-25 12:45:50.954 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2014-08-25 12:45:50.954 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2014-08-25 12:45:50.954 Cache directory changes: Yes, Permanent: Yes
+. 2014-08-25 12:45:50.954 DST mode: 1; Timezone offset: 0h 0m
+. 2014-08-25 12:45:50.954 --------------------------------------------------------------------------
+. 2014-08-25 12:45:51.037 Looking up host "192.168.7.2"
+. 2014-08-25 12:45:51.038 Connecting to 192.168.7.2 port 22
+. 2014-08-25 12:45:51.091 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2014-08-25 12:45:51.091 Using SSH protocol version 2
+. 2014-08-25 12:45:51.091 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2014-08-25 12:45:51.096 Doing Diffie-Hellman group exchange
+. 2014-08-25 12:45:51.108 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2014-08-25 12:45:52.145 Verifying host key rsa2 0x10001,0xbdbbed7b8983aa76 ed05135f507967ba 95035773b2cd1a6e 8a0f7fe28eaebeb0 297ddb345901ca86 435529940b19afdb b304cb1d689326bb dbee794b70dbe540 abf3f62f13b29c5a b48067b9aa414e54 671f420e50e9152b ff3d89fc4f120669 ad88188bb9cf7aaf 28ca0300cb3dcbf0 75e503dd3b3b1edd e6e98fcc60f4ebbc 51a399e64478754c 9e25c24d98f72025 feff1a086b3355be 6c27bc8f38b524d7 5df845f34521d00d 58a205c3a0874df2 a140bbcdd7c9f193 c8baf1c310d99abc 429d244d3a8b4f61 0bd85c79b1b196f5 4af36cf3eeccd2dc 3db844d9bc655a62 36a65e27690c132b 4f78f8e83ac90eaf 19831825589b4f38 f14ccee16d60c63d  with fingerprint ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:45:52.167 Host key matches cached key
+. 2014-08-25 12:45:52.168 Host key fingerprint is:
+. 2014-08-25 12:45:52.168 ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 12:45:52.168 Initialised AES-256 SDCTR client->server encryption
+. 2014-08-25 12:45:52.168 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2014-08-25 12:45:52.168 Initialised AES-256 SDCTR server->client encryption
+. 2014-08-25 12:45:52.168 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2014-08-25 12:45:52.168 Using username "machinekit".
+. 2014-08-25 12:45:52.304 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 12:45:52.304 Using stored password.
+. 2014-08-25 12:45:52.323 Sent password
+. 2014-08-25 12:45:52.400 Password authentication failed
+! 2014-08-25 12:45:52.400 Access denied
+. 2014-08-25 12:45:52.428 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 12:45:55.450 Attempt to close connection due to fatal exception:
+. 2014-08-25 12:45:55.450 Closing connection.
+. 2014-08-25 12:45:55.450 Sending special code: 12
+* 2014-08-25 12:45:55.508 (ESshFatal) 
+. 2014-08-25 13:19:53.546 --------------------------------------------------------------------------
+. 2014-08-25 13:19:53.546 WinSCP Version 5.5.4 (Build 4433) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+. 2014-08-25 13:19:53.546 Configuration: E:\Windows\WinSCPPortable\Data\settings\winscp.ini
+. 2014-08-25 13:19:53.546 Local account: MBP-Sascha\Sascha
+. 2014-08-25 13:19:53.546 Working directory: E:\Windows\WinSCPPortable\App\WinSCP
+. 2014-08-25 13:19:53.546 Process ID: 1584
+. 2014-08-25 13:19:53.546 Command-line: "E:\Windows\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="E:\Windows\WinSCPPortable\Data\settings\winscp.ini" /log="E:\Windows\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2014-08-25 13:19:53.546 Time zone: Current: GMT+2, Standard: GMT+1 (Mitteleuropäische Zeit), DST: GMT+2 (Mitteleuropäische Sommerzeit), DST Start: 30.03.2014, DST End: 26.10.2014
+. 2014-08-25 13:19:53.546 Login time: Montag, 25. August 2014 13:19:53
+. 2014-08-25 13:19:53.546 --------------------------------------------------------------------------
+. 2014-08-25 13:19:53.546 Session name: machinekit@192.168.7.2 (Site)
+. 2014-08-25 13:19:53.546 Host name: 192.168.7.2 (Port: 22)
+. 2014-08-25 13:19:53.546 User name: machinekit (Password: Yes, Key file: No)
+. 2014-08-25 13:19:53.546 Tunnel: No
+. 2014-08-25 13:19:53.546 Transfer Protocol: SFTP (SCP)
+. 2014-08-25 13:19:53.546 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2014-08-25 13:19:53.546 Proxy: none
+. 2014-08-25 13:19:53.546 Send buffer: 262144
+. 2014-08-25 13:19:53.546 SSH protocol version: 2; Compression: No
+. 2014-08-25 13:19:53.546 Bypass authentication: No
+. 2014-08-25 13:19:53.983 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2014-08-25 13:19:53.983 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2014-08-25 13:19:53.983 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2014-08-25 13:19:53.983 Simple channel: Yes
+. 2014-08-25 13:19:53.983 Return code variable: Autodetect; Lookup user groups: A
+. 2014-08-25 13:19:53.983 Shell: default
+. 2014-08-25 13:19:53.983 EOL: 0, UTF: 2
+. 2014-08-25 13:19:53.983 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2014-08-25 13:19:53.983 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2014-08-25 13:19:53.983 SFTP Bugs: A,A
+. 2014-08-25 13:19:53.983 SFTP Server: default
+. 2014-08-25 13:19:53.983 Local directory: Z:\home\alexander\Documents, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2014-08-25 13:19:53.983 Cache directory changes: Yes, Permanent: Yes
+. 2014-08-25 13:19:53.983 DST mode: 1; Timezone offset: 0h 0m
+. 2014-08-25 13:19:53.983 --------------------------------------------------------------------------
+. 2014-08-25 13:19:54.108 Looking up host "192.168.7.2"
+. 2014-08-25 13:19:54.108 Connecting to 192.168.7.2 port 22
+. 2014-08-25 13:19:54.170 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2014-08-25 13:19:54.170 Using SSH protocol version 2
+. 2014-08-25 13:19:54.170 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2014-08-25 13:19:54.170 Doing Diffie-Hellman group exchange
+. 2014-08-25 13:19:54.186 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2014-08-25 13:19:54.966 Verifying host key rsa2 0x10001,0xbdbbed7b8983aa76 ed05135f507967ba 95035773b2cd1a6e 8a0f7fe28eaebeb0 297ddb345901ca86 435529940b19afdb b304cb1d689326bb dbee794b70dbe540 abf3f62f13b29c5a b48067b9aa414e54 671f420e50e9152b ff3d89fc4f120669 ad88188bb9cf7aaf 28ca0300cb3dcbf0 75e503dd3b3b1edd e6e98fcc60f4ebbc 51a399e64478754c 9e25c24d98f72025 feff1a086b3355be 6c27bc8f38b524d7 5df845f34521d00d 58a205c3a0874df2 a140bbcdd7c9f193 c8baf1c310d99abc 429d244d3a8b4f61 0bd85c79b1b196f5 4af36cf3eeccd2dc 3db844d9bc655a62 36a65e27690c132b 4f78f8e83ac90eaf 19831825589b4f38 f14ccee16d60c63d  with fingerprint ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 13:19:54.997 Host key matches cached key
+. 2014-08-25 13:19:54.997 Host key fingerprint is:
+. 2014-08-25 13:19:54.997 ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 13:19:54.997 Initialised AES-256 SDCTR client->server encryption
+. 2014-08-25 13:19:54.997 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2014-08-25 13:19:54.997 Initialised AES-256 SDCTR server->client encryption
+. 2014-08-25 13:19:54.997 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2014-08-25 13:19:54.997 Using username "machinekit".
+. 2014-08-25 13:19:55.356 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 13:19:55.356 Using stored password.
+. 2014-08-25 13:19:55.372 Sent password
+. 2014-08-25 13:19:55.450 Access granted
+. 2014-08-25 13:19:55.450 Opening session as main channel
+. 2014-08-25 13:19:55.481 Opened main channel
+. 2014-08-25 13:19:55.512 Started a shell/command
+. 2014-08-25 13:19:55.559 --------------------------------------------------------------------------
+. 2014-08-25 13:19:55.559 Using SFTP protocol.
+. 2014-08-25 13:19:55.559 Doing startup conversation with host.
+> 2014-08-25 13:19:55.621 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2014-08-25 13:19:55.621 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2014-08-25 13:19:55.621 SFTP version 3 negotiated.
+. 2014-08-25 13:19:55.621 Unknown server extension posix-rename@openssh.com="1"
+. 2014-08-25 13:19:55.621 Supports statvfs@openssh.com extension version "2"
+. 2014-08-25 13:19:55.621 Unknown server extension fstatvfs@openssh.com="2"
+. 2014-08-25 13:19:55.621 Unknown server extension hardlink@openssh.com="1"
+. 2014-08-25 13:19:55.621 We believe the server has signed timestamps bug
+. 2014-08-25 13:19:55.621 We will use UTF-8 strings when appropriate
+. 2014-08-25 13:19:55.621 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2014-08-25 13:19:55.684 Changing directory to "/home/machinekit/nc_files".
+. 2014-08-25 13:19:55.684 Getting real path for '/home/machinekit/nc_files'
+> 2014-08-25 13:19:55.684 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2014-08-25 13:19:55.684 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2014-08-25 13:19:55.684 Real path is '/home/machinekit/nc_files'
+. 2014-08-25 13:19:55.684 Trying to open directory "/home/machinekit/nc_files".
+> 2014-08-25 13:19:55.684 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2014-08-25 13:19:55.684 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2014-08-25 13:19:55.684 Getting current directory name.
+. 2014-08-25 13:19:55.871 Listing directory "/home/machinekit/nc_files".
+> 2014-08-25 13:19:55.871 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2014-08-25 13:19:55.871 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2014-08-25 13:19:55.871 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2014-08-25 13:19:55.871 Type: SSH_FXP_NAME, Size: 437, Number: 780
+> 2014-08-25 13:19:55.871 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2014-08-25 13:19:55.871 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2014-08-25 13:19:55.871 Status code: 1
+> 2014-08-25 13:19:55.871 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2014-08-25 13:19:55.871 .git;d;4096;2014-08-25T09:37:49.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2014-08-25 13:19:55.871 examples;d;4096;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 13:19:55.871 ..;d;4096;2014-08-05T23:10:31.000Z;"machinekit" [1001];"root" [0];rwxr-xr-x;0
+. 2014-08-25 13:19:55.996 Startup conversation with host finished.
+* 2014-08-25 13:19:56.339 (Exception) Directory 'Z:\home\alexander\Documents' doesn't exist.
+. 2014-08-25 13:20:12.001 Changing directory to "examples".
+. 2014-08-25 13:20:12.001 Getting real path for '/home/machinekit/nc_files/examples'
+> 2014-08-25 13:20:12.001 Type: SSH_FXP_REALPATH, Size: 43, Number: 1552
+< 2014-08-25 13:20:12.001 Type: SSH_FXP_STATUS, Size: 24, Number: 1284
+. 2014-08-25 13:20:12.001 Discarding reserved response
+< 2014-08-25 13:20:12.001 Type: SSH_FXP_NAME, Size: 89, Number: 1552
+. 2014-08-25 13:20:12.001 Real path is '/home/machinekit/nc_files/examples'
+. 2014-08-25 13:20:12.001 Trying to open directory "/home/machinekit/nc_files/examples".
+> 2014-08-25 13:20:12.001 Type: SSH_FXP_LSTAT, Size: 43, Number: 1799
+< 2014-08-25 13:20:12.001 Type: SSH_FXP_ATTRS, Size: 37, Number: 1799
+. 2014-08-25 13:20:12.001 Getting current directory name.
+. 2014-08-25 13:20:12.001 Listing directory "/home/machinekit/nc_files/examples".
+> 2014-08-25 13:20:12.001 Type: SSH_FXP_OPENDIR, Size: 43, Number: 2059
+< 2014-08-25 13:20:12.001 Type: SSH_FXP_HANDLE, Size: 13, Number: 2059
+> 2014-08-25 13:20:12.001 Type: SSH_FXP_READDIR, Size: 13, Number: 2316
+< 2014-08-25 13:20:12.017 Type: SSH_FXP_NAME, Size: 1161, Number: 2316
+> 2014-08-25 13:20:12.017 Type: SSH_FXP_READDIR, Size: 13, Number: 2572
+< 2014-08-25 13:20:12.017 Type: SSH_FXP_STATUS, Size: 28, Number: 2572
+< 2014-08-25 13:20:12.017 Status code: 1
+> 2014-08-25 13:20:12.017 Type: SSH_FXP_CLOSE, Size: 13, Number: 2820
+. 2014-08-25 13:20:12.017 .git;d;4096;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2014-08-25 13:20:12.017 oben-17-03-06.ngc;-;262665;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;0
+. 2014-08-25 13:20:12.017 Griff.ngc;-;446091;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;0
+. 2014-08-25 13:20:12.017 Flasche1_3axis-SCHNELL.ngc;-;176295;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;0
+. 2014-08-25 13:20:12.017 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2094;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;0
+. 2014-08-25 13:20:12.017 Drehteil mit Fase.ngc;-;560;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;0
+. 2014-08-25 13:20:12.017 README.md;-;49;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;0
+. 2014-08-25 13:20:12.017 ..;d;4096;2014-08-05T23:22:23.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 13:20:13.873 Cached directory change via ".." to "/home/machinekit/nc_files".
+. 2014-08-25 13:20:13.873 Getting current directory name.
+. 2014-08-25 13:20:13.873 Directory content loaded from cache.
+. 2014-08-25 13:20:16.806 Closing connection.
+. 2014-08-25 13:20:16.806 Sending special code: 12
+. 2014-08-25 13:20:16.806 Sent EOF message
+. 2014-08-25 13:20:34.963 --------------------------------------------------------------------------
+. 2014-08-25 13:20:34.963 WinSCP Version 5.5.4 (Build 4433) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+. 2014-08-25 13:20:34.963 Configuration: E:\Windows\WinSCPPortable\Data\settings\winscp.ini
+. 2014-08-25 13:20:34.963 Local account: MBP-Sascha\Sascha
+. 2014-08-25 13:20:34.963 Working directory: E:\Windows\WinSCPPortable\App\WinSCP
+. 2014-08-25 13:20:34.963 Process ID: 3520
+. 2014-08-25 13:20:34.963 Command-line: "E:\Windows\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="E:\Windows\WinSCPPortable\Data\settings\winscp.ini" /log="E:\Windows\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2014-08-25 13:20:34.963 Time zone: Current: GMT+2, Standard: GMT+1 (Mitteleuropäische Zeit), DST: GMT+2 (Mitteleuropäische Sommerzeit), DST Start: 30.03.2014, DST End: 26.10.2014
+. 2014-08-25 13:20:34.963 Login time: Montag, 25. August 2014 13:20:34
+. 2014-08-25 13:20:34.963 --------------------------------------------------------------------------
+. 2014-08-25 13:20:34.963 Session name: machinekit@192.168.7.2 (Site)
+. 2014-08-25 13:20:34.963 Host name: 192.168.7.2 (Port: 22)
+. 2014-08-25 13:20:34.963 User name: machinekit (Password: Yes, Key file: No)
+. 2014-08-25 13:20:34.963 Tunnel: No
+. 2014-08-25 13:20:34.963 Transfer Protocol: SFTP (SCP)
+. 2014-08-25 13:20:34.963 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2014-08-25 13:20:34.963 Proxy: none
+. 2014-08-25 13:20:34.963 Send buffer: 262144
+. 2014-08-25 13:20:34.968 SSH protocol version: 2; Compression: No
+. 2014-08-25 13:20:34.968 Bypass authentication: No
+. 2014-08-25 13:20:34.968 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2014-08-25 13:20:34.968 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2014-08-25 13:20:34.968 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2014-08-25 13:20:34.968 Simple channel: Yes
+. 2014-08-25 13:20:34.968 Return code variable: Autodetect; Lookup user groups: A
+. 2014-08-25 13:20:34.968 Shell: default
+. 2014-08-25 13:20:34.968 EOL: 0, UTF: 2
+. 2014-08-25 13:20:34.968 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2014-08-25 13:20:34.968 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2014-08-25 13:20:34.968 SFTP Bugs: A,A
+. 2014-08-25 13:20:34.968 SFTP Server: default
+. 2014-08-25 13:20:34.968 Local directory: C:\Users\Sascha\Documents, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2014-08-25 13:20:34.968 Cache directory changes: Yes, Permanent: Yes
+. 2014-08-25 13:20:34.968 DST mode: 1; Timezone offset: 0h 0m
+. 2014-08-25 13:20:34.968 --------------------------------------------------------------------------
+. 2014-08-25 13:20:35.098 Looking up host "192.168.7.2"
+. 2014-08-25 13:20:35.098 Connecting to 192.168.7.2 port 22
+. 2014-08-25 13:20:35.153 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2014-08-25 13:20:35.153 Using SSH protocol version 2
+. 2014-08-25 13:20:35.153 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2014-08-25 13:20:35.158 Doing Diffie-Hellman group exchange
+. 2014-08-25 13:20:35.173 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2014-08-25 13:20:36.019 Verifying host key rsa2 0x10001,0xbdbbed7b8983aa76 ed05135f507967ba 95035773b2cd1a6e 8a0f7fe28eaebeb0 297ddb345901ca86 435529940b19afdb b304cb1d689326bb dbee794b70dbe540 abf3f62f13b29c5a b48067b9aa414e54 671f420e50e9152b ff3d89fc4f120669 ad88188bb9cf7aaf 28ca0300cb3dcbf0 75e503dd3b3b1edd e6e98fcc60f4ebbc 51a399e64478754c 9e25c24d98f72025 feff1a086b3355be 6c27bc8f38b524d7 5df845f34521d00d 58a205c3a0874df2 a140bbcdd7c9f193 c8baf1c310d99abc 429d244d3a8b4f61 0bd85c79b1b196f5 4af36cf3eeccd2dc 3db844d9bc655a62 36a65e27690c132b 4f78f8e83ac90eaf 19831825589b4f38 f14ccee16d60c63d  with fingerprint ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 13:20:36.066 Host key matches cached key
+. 2014-08-25 13:20:36.066 Host key fingerprint is:
+. 2014-08-25 13:20:36.066 ssh-rsa 2048 e5:58:18:69:44:3f:3d:2f:51:42:78:94:c8:70:de:95
+. 2014-08-25 13:20:36.066 Initialised AES-256 SDCTR client->server encryption
+. 2014-08-25 13:20:36.066 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2014-08-25 13:20:36.066 Initialised AES-256 SDCTR server->client encryption
+. 2014-08-25 13:20:36.066 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2014-08-25 13:20:36.066 Using username "machinekit".
+. 2014-08-25 13:20:36.222 Prompt (7, SSH password, , &Password: )
+. 2014-08-25 13:20:36.222 Using stored password.
+. 2014-08-25 13:20:36.253 Sent password
+. 2014-08-25 13:20:36.331 Access granted
+. 2014-08-25 13:20:36.331 Opening session as main channel
+. 2014-08-25 13:20:36.347 Opened main channel
+. 2014-08-25 13:20:36.394 Started a shell/command
+. 2014-08-25 13:20:36.440 --------------------------------------------------------------------------
+. 2014-08-25 13:20:36.440 Using SFTP protocol.
+. 2014-08-25 13:20:36.440 Doing startup conversation with host.
+> 2014-08-25 13:20:36.503 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2014-08-25 13:20:36.503 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2014-08-25 13:20:36.503 SFTP version 3 negotiated.
+. 2014-08-25 13:20:36.503 Unknown server extension posix-rename@openssh.com="1"
+. 2014-08-25 13:20:36.503 Supports statvfs@openssh.com extension version "2"
+. 2014-08-25 13:20:36.503 Unknown server extension fstatvfs@openssh.com="2"
+. 2014-08-25 13:20:36.503 Unknown server extension hardlink@openssh.com="1"
+. 2014-08-25 13:20:36.503 We believe the server has signed timestamps bug
+. 2014-08-25 13:20:36.503 We will use UTF-8 strings when appropriate
+. 2014-08-25 13:20:36.503 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2014-08-25 13:20:36.565 Changing directory to "/home/machinekit/nc_files".
+. 2014-08-25 13:20:36.565 Getting real path for '/home/machinekit/nc_files'
+> 2014-08-25 13:20:36.565 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2014-08-25 13:20:36.565 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2014-08-25 13:20:36.565 Real path is '/home/machinekit/nc_files'
+. 2014-08-25 13:20:36.565 Trying to open directory "/home/machinekit/nc_files".
+> 2014-08-25 13:20:36.565 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2014-08-25 13:20:36.565 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2014-08-25 13:20:36.565 Getting current directory name.
+. 2014-08-25 13:20:36.752 Listing directory "/home/machinekit/nc_files".
+> 2014-08-25 13:20:36.752 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2014-08-25 13:20:36.752 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2014-08-25 13:20:36.752 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2014-08-25 13:20:36.752 Type: SSH_FXP_NAME, Size: 437, Number: 780
+> 2014-08-25 13:20:36.752 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2014-08-25 13:20:36.752 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2014-08-25 13:20:36.752 Status code: 1
+> 2014-08-25 13:20:36.752 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2014-08-25 13:20:36.752 .git;d;4096;2014-08-25T09:37:49.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2014-08-25 13:20:36.752 examples;d;4096;2014-08-25T09:44:53.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2014-08-25 13:20:36.752 ..;d;4096;2014-08-05T23:10:31.000Z;"machinekit" [1001];"root" [0];rwxr-xr-x;0
+. 2014-08-25 13:20:36.877 Startup conversation with host finished.
+. 2014-08-25 13:20:39.233 Closing connection.
+. 2014-08-25 13:20:39.233 Sending special code: 12
+. 2014-08-25 13:20:39.233 Sent EOF message
+. 2015-07-28 09:43:50.049 --------------------------------------------------------------------------
+. 2015-07-28 09:43:50.050 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 09:43:50.050 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:43:50.050 Local account: thinkpad\alexander
+. 2015-07-28 09:43:50.050 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:43:50.050 Process ID: 66
+. 2015-07-28 09:43:50.050 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2015-07-28 09:43:50.050 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 09:43:50.050 Login time: Tuesday, July 28, 2015 9:43:50 AM
+. 2015-07-28 09:43:50.050 --------------------------------------------------------------------------
+. 2015-07-28 09:43:50.050 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:43:50.050 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:43:50.050 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:43:50.050 Tunnel: No
+. 2015-07-28 09:43:50.050 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:43:50.051 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:43:50.051 Proxy: none
+. 2015-07-28 09:43:50.051 Send buffer: 262144
+. 2015-07-28 09:43:50.051 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:43:50.051 Bypass authentication: No
+. 2015-07-28 09:43:50.051 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:43:50.051 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:43:50.051 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:43:50.051 Simple channel: Yes
+. 2015-07-28 09:43:50.051 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:43:50.051 Shell: default
+. 2015-07-28 09:43:50.051 EOL: 0, UTF: 2
+. 2015-07-28 09:43:50.051 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:43:50.051 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:43:50.051 SFTP Bugs: A,A
+. 2015-07-28 09:43:50.051 SFTP Server: default
+. 2015-07-28 09:43:50.051 Local directory: C:\Users\Sascha\Documents, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:43:50.051 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:43:50.051 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:43:50.051 --------------------------------------------------------------------------
+. 2015-07-28 09:43:50.117 Looking up host "192.168.7.2"
+. 2015-07-28 09:43:50.118 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:43:50.176 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:43:50.176 Using SSH protocol version 2
+. 2015-07-28 09:43:50.176 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:43:50.182 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:43:50.197 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:43:51.222 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:43:51.245 Host key does not match cached key 0x10001,0xbdbbed7b8983aa76 ed05135f507967ba 95035773b2cd1a6e 8a0f7fe28eaebeb0 297ddb345901ca86 435529940b19afdb b304cb1d689326bb dbee794b70dbe540 abf3f62f13b29c5a b48067b9aa414e54 671f420e50e9152b ff3d89fc4f120669 ad88188bb9cf7aaf 28ca0300cb3dcbf0 75e503dd3b3b1edd e6e98fcc60f4ebbc 51a399e64478754c 9e25c24d98f72025 feff1a086b3355be 6c27bc8f38b524d7 5df845f34521d00d 58a205c3a0874df2 a140bbcdd7c9f193 c8baf1c310d99abc 429d244d3a8b4f61 0bd85c79b1b196f5 4af36cf3eeccd2dc 3db844d9bc655a62 36a65e27690c132b 4f78f8e83ac90eaf 19831825589b4f38 f14ccee16d60c63d 
+. 2015-07-28 09:43:51.245 Asking user:
+. 2015-07-28 09:43:51.245 **WARNING - POTENTIAL SECURITY BREACH!**
+. 2015-07-28 09:43:51.245 
+. 2015-07-28 09:43:51.245 The server's host key does not match the one WinSCP has in cache. This means that either the server administrator has changed the host key, the server presents different key under certain circumstance, or you have actually connected to another computer pretending to be the server.
+. 2015-07-28 09:43:51.245 
+. 2015-07-28 09:43:51.245 The new rsa2 key fingerprint is:
+. 2015-07-28 09:43:51.245 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:43:51.245 
+. 2015-07-28 09:43:51.245 If you were expecting this change, trust the new key and want to continue connecting to the server, either press Update to update cache, or press Add to add the new key to the cache while keeping the old one(s). If you want to carry on connecting but without updating the cache, press Skip. If you want to abandon the connection completely, press Cancel. Pressing Cancel is the ONLY guaranteed safe choice. ()
+. 2015-07-28 09:43:54.028 Host key fingerprint is:
+. 2015-07-28 09:43:54.028 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:43:54.028 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:43:54.029 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:43:54.029 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:43:54.029 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:43:54.031 Using username "machinekit".
+. 2015-07-28 09:43:55.898 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:43:55.898 Using stored password.
+. 2015-07-28 09:43:55.955 Sent password
+. 2015-07-28 09:43:55.961 Access granted
+. 2015-07-28 09:43:55.961 Opening session as main channel
+. 2015-07-28 09:43:55.989 Opened main channel
+. 2015-07-28 09:43:56.031 Started a shell/command
+. 2015-07-28 09:43:56.062 --------------------------------------------------------------------------
+. 2015-07-28 09:43:56.062 Using SFTP protocol.
+. 2015-07-28 09:43:56.064 Doing startup conversation with host.
+> 2015-07-28 09:43:56.132 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:43:56.133 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:43:56.133 SFTP version 3 negotiated.
+. 2015-07-28 09:43:56.133 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:43:56.133 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:43:56.133 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:43:56.133 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:43:56.133 We believe the server has signed timestamps bug
+. 2015-07-28 09:43:56.133 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:43:56.133 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:43:56.174 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:43:56.174 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:43:56.174 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:43:56.175 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:43:56.175 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:43:56.175 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:43:56.175 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:43:56.176 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:43:56.177 Getting current directory name.
+. 2015-07-28 09:43:56.325 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:43:56.325 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:43:56.327 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:43:56.327 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:43:56.331 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:43:56.331 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:43:56.332 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:43:56.332 Status code: 1
+> 2015-07-28 09:43:56.332 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:43:56.332 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:43:56.333 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:43:56.333 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:43:56.333 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:43:56.333 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:43:56.333 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:43:56.333 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:43:56.426 Startup conversation with host finished.
+* 2015-07-28 09:43:56.850 (Exception) Directory 'C:\Users\Sascha\Documents' doesn't exist.
+. 2015-07-28 09:44:13.097 Closing connection.
+. 2015-07-28 09:44:13.097 Sending special code: 12
+. 2015-07-28 09:44:13.097 Sent EOF message
+. 2015-07-28 09:44:21.703 --------------------------------------------------------------------------
+. 2015-07-28 09:44:21.703 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 09:44:21.704 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:44:21.704 Local account: thinkpad\alexander
+. 2015-07-28 09:44:21.704 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:44:21.704 Process ID: 51
+. 2015-07-28 09:44:21.704 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2015-07-28 09:44:21.704 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 09:44:21.704 Login time: Tuesday, July 28, 2015 9:44:21 AM
+. 2015-07-28 09:44:21.704 --------------------------------------------------------------------------
+. 2015-07-28 09:44:21.704 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:44:21.704 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:44:21.704 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:44:21.704 Tunnel: No
+. 2015-07-28 09:44:21.704 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:44:21.704 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:44:21.704 Proxy: none
+. 2015-07-28 09:44:21.704 Send buffer: 262144
+. 2015-07-28 09:44:21.704 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:44:21.704 Bypass authentication: No
+. 2015-07-28 09:44:21.704 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:44:21.704 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:44:21.704 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:44:21.704 Simple channel: Yes
+. 2015-07-28 09:44:21.704 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:44:21.704 Shell: default
+. 2015-07-28 09:44:21.704 EOL: 0, UTF: 2
+. 2015-07-28 09:44:21.704 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:44:21.704 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:44:21.704 SFTP Bugs: A,A
+. 2015-07-28 09:44:21.704 SFTP Server: default
+. 2015-07-28 09:44:21.704 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:44:21.704 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:44:21.704 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:44:21.704 --------------------------------------------------------------------------
+. 2015-07-28 09:44:21.778 Looking up host "192.168.7.2"
+. 2015-07-28 09:44:21.778 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:44:21.835 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:44:21.835 Using SSH protocol version 2
+. 2015-07-28 09:44:21.835 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:44:21.841 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:44:21.856 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:44:22.910 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:44:22.949 Host key matches cached key
+. 2015-07-28 09:44:22.949 Host key fingerprint is:
+. 2015-07-28 09:44:22.949 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:44:22.949 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:44:22.949 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:44:22.949 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:44:22.949 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:44:22.950 Using username "machinekit".
+. 2015-07-28 09:44:26.590 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:44:26.590 Using stored password.
+. 2015-07-28 09:44:26.645 Sent password
+. 2015-07-28 09:44:26.651 Access granted
+. 2015-07-28 09:44:26.651 Opening session as main channel
+. 2015-07-28 09:44:26.677 Opened main channel
+. 2015-07-28 09:44:26.723 Started a shell/command
+. 2015-07-28 09:44:26.754 --------------------------------------------------------------------------
+. 2015-07-28 09:44:26.755 Using SFTP protocol.
+. 2015-07-28 09:44:26.757 Doing startup conversation with host.
+> 2015-07-28 09:44:26.829 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:44:26.831 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:44:26.831 SFTP version 3 negotiated.
+. 2015-07-28 09:44:26.831 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:44:26.831 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:44:26.831 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:44:26.831 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:44:26.831 We believe the server has signed timestamps bug
+. 2015-07-28 09:44:26.831 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:44:26.831 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:44:26.869 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:44:26.869 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:44:26.869 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:44:26.870 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:44:26.870 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:44:26.870 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:44:26.870 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:44:26.871 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:44:26.872 Getting current directory name.
+. 2015-07-28 09:44:27.020 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:44:27.020 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:44:27.022 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:44:27.022 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:44:27.026 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:44:27.026 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:44:27.027 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:44:27.027 Status code: 1
+> 2015-07-28 09:44:27.027 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:44:27.028 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:44:27.028 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:27.028 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:27.028 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:27.028 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:44:27.028 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:27.028 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:44:27.121 Startup conversation with host finished.
+. 2015-07-28 09:44:29.525 Closing connection.
+. 2015-07-28 09:44:29.525 Sending special code: 12
+. 2015-07-28 09:44:29.525 Sent EOF message
+. 2015-07-28 09:44:33.800 --------------------------------------------------------------------------
+. 2015-07-28 09:44:33.800 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 09:44:33.801 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:44:33.801 Local account: thinkpad\alexander
+. 2015-07-28 09:44:33.801 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:44:33.801 Process ID: 57
+. 2015-07-28 09:44:33.801 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2015-07-28 09:44:33.801 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 09:44:33.801 Login time: Tuesday, July 28, 2015 9:44:33 AM
+. 2015-07-28 09:44:33.801 --------------------------------------------------------------------------
+. 2015-07-28 09:44:33.801 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:44:33.801 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:44:33.801 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:44:33.801 Tunnel: No
+. 2015-07-28 09:44:33.801 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:44:33.801 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:44:33.801 Proxy: none
+. 2015-07-28 09:44:33.801 Send buffer: 262144
+. 2015-07-28 09:44:33.801 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:44:33.801 Bypass authentication: No
+. 2015-07-28 09:44:33.801 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:44:33.801 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:44:33.801 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:44:33.801 Simple channel: Yes
+. 2015-07-28 09:44:33.801 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:44:33.801 Shell: default
+. 2015-07-28 09:44:33.801 EOL: 0, UTF: 2
+. 2015-07-28 09:44:33.801 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:44:33.801 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:44:33.801 SFTP Bugs: A,A
+. 2015-07-28 09:44:33.801 SFTP Server: default
+. 2015-07-28 09:44:33.801 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:44:33.801 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:44:33.801 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:44:33.801 --------------------------------------------------------------------------
+. 2015-07-28 09:44:33.887 Looking up host "192.168.7.2"
+. 2015-07-28 09:44:33.888 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:44:33.943 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:44:33.943 Using SSH protocol version 2
+. 2015-07-28 09:44:33.943 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:44:33.949 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:44:33.965 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:44:35.037 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:44:35.057 Host key matches cached key
+. 2015-07-28 09:44:35.057 Host key fingerprint is:
+. 2015-07-28 09:44:35.057 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:44:35.058 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:44:35.058 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:44:35.058 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:44:35.058 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:44:35.059 Using username "machinekit".
+. 2015-07-28 09:44:35.117 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:44:35.118 Using stored password.
+. 2015-07-28 09:44:35.166 Sent password
+. 2015-07-28 09:44:35.173 Access granted
+. 2015-07-28 09:44:35.173 Opening session as main channel
+. 2015-07-28 09:44:35.189 Opened main channel
+. 2015-07-28 09:44:35.235 Started a shell/command
+. 2015-07-28 09:44:35.273 --------------------------------------------------------------------------
+. 2015-07-28 09:44:35.273 Using SFTP protocol.
+. 2015-07-28 09:44:35.275 Doing startup conversation with host.
+> 2015-07-28 09:44:35.332 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:44:35.333 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:44:35.333 SFTP version 3 negotiated.
+. 2015-07-28 09:44:35.333 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:44:35.333 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:44:35.333 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:44:35.333 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:44:35.333 We believe the server has signed timestamps bug
+. 2015-07-28 09:44:35.333 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:44:35.333 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:44:35.385 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:44:35.385 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:44:35.385 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:44:35.386 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:44:35.386 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:44:35.386 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:44:35.386 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:44:35.387 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:44:35.387 Getting current directory name.
+. 2015-07-28 09:44:35.536 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:44:35.536 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:44:35.538 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:44:35.538 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:44:35.541 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:44:35.541 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:44:35.543 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:44:35.543 Status code: 1
+> 2015-07-28 09:44:35.543 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:44:35.543 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:44:35.543 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:35.543 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:35.543 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:35.543 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:44:35.543 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:44:35.544 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:44:35.637 Startup conversation with host finished.
+. 2015-07-28 09:44:44.621 Closing connection.
+. 2015-07-28 09:44:44.621 Sending special code: 12
+. 2015-07-28 09:44:44.622 Sent EOF message
+. 2015-07-28 09:45:18.499 --------------------------------------------------------------------------
+. 2015-07-28 09:45:18.500 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 09:45:18.501 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:45:18.501 Local account: thinkpad\alexander
+. 2015-07-28 09:45:18.501 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:45:18.501 Process ID: 36
+. 2015-07-28 09:45:18.501 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2015-07-28 09:45:18.501 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 09:45:18.502 Login time: Tuesday, July 28, 2015 9:45:18 AM
+. 2015-07-28 09:45:18.502 --------------------------------------------------------------------------
+. 2015-07-28 09:45:18.502 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:45:18.502 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:45:18.502 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:45:18.502 Tunnel: No
+. 2015-07-28 09:45:18.502 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:45:18.502 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:45:18.502 Proxy: none
+. 2015-07-28 09:45:18.502 Send buffer: 262144
+. 2015-07-28 09:45:18.502 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:45:18.502 Bypass authentication: No
+. 2015-07-28 09:45:18.502 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:45:18.502 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:45:18.502 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:45:18.502 Simple channel: Yes
+. 2015-07-28 09:45:18.502 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:45:18.503 Shell: default
+. 2015-07-28 09:45:18.503 EOL: 0, UTF: 2
+. 2015-07-28 09:45:18.503 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:45:18.503 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:45:18.503 SFTP Bugs: A,A
+. 2015-07-28 09:45:18.503 SFTP Server: default
+. 2015-07-28 09:45:18.503 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:45:18.503 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:45:18.503 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:45:18.503 --------------------------------------------------------------------------
+. 2015-07-28 09:45:18.592 Looking up host "192.168.7.2"
+. 2015-07-28 09:45:18.592 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:45:18.648 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:45:18.648 Using SSH protocol version 2
+. 2015-07-28 09:45:18.649 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:45:18.655 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:45:18.671 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:45:19.742 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:45:19.757 Host key matches cached key
+. 2015-07-28 09:45:19.757 Host key fingerprint is:
+. 2015-07-28 09:45:19.757 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:45:19.757 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:45:19.757 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:45:19.758 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:45:19.758 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:45:19.759 Using username "machinekit".
+. 2015-07-28 09:45:19.816 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:45:19.816 Using stored password.
+. 2015-07-28 09:45:19.866 Sent password
+. 2015-07-28 09:45:19.872 Access granted
+. 2015-07-28 09:45:19.872 Opening session as main channel
+. 2015-07-28 09:45:19.897 Opened main channel
+. 2015-07-28 09:45:19.944 Started a shell/command
+. 2015-07-28 09:45:19.971 --------------------------------------------------------------------------
+. 2015-07-28 09:45:19.971 Using SFTP protocol.
+. 2015-07-28 09:45:19.973 Doing startup conversation with host.
+> 2015-07-28 09:45:20.042 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:45:20.043 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:45:20.043 SFTP version 3 negotiated.
+. 2015-07-28 09:45:20.043 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:45:20.043 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:45:20.043 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:45:20.043 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:45:20.043 We believe the server has signed timestamps bug
+. 2015-07-28 09:45:20.043 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:45:20.043 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:45:20.082 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:45:20.082 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:45:20.082 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:45:20.083 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:45:20.083 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:45:20.083 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:45:20.083 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:45:20.084 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:45:20.084 Getting current directory name.
+. 2015-07-28 09:45:20.233 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:45:20.233 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:45:20.235 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:45:20.235 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:45:20.238 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:45:20.238 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:45:20.240 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:45:20.240 Status code: 1
+> 2015-07-28 09:45:20.240 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:45:20.240 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:20.240 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:20.240 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:20.240 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:20.240 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:20.240 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:20.240 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:20.334 Startup conversation with host finished.
+. 2015-07-28 09:45:22.501 Closing connection.
+. 2015-07-28 09:45:22.501 Sending special code: 12
+. 2015-07-28 09:45:22.501 Sent EOF message
+. 2015-07-28 09:45:39.953 --------------------------------------------------------------------------
+. 2015-07-28 09:45:39.953 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 09:45:39.954 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:45:39.955 Local account: thinkpad\alexander
+. 2015-07-28 09:45:39.955 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:45:39.955 Process ID: 9
+. 2015-07-28 09:45:39.955 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" machinekit@192.168.7.2
+. 2015-07-28 09:45:39.955 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 09:45:39.955 Login time: Tuesday, July 28, 2015 9:45:39 AM
+. 2015-07-28 09:45:39.955 --------------------------------------------------------------------------
+. 2015-07-28 09:45:39.955 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:45:39.955 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:45:39.955 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:45:39.955 Tunnel: No
+. 2015-07-28 09:45:39.955 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:45:39.955 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:45:39.955 Proxy: none
+. 2015-07-28 09:45:39.955 Send buffer: 262144
+. 2015-07-28 09:45:39.955 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:45:39.955 Bypass authentication: No
+. 2015-07-28 09:45:39.955 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:45:39.955 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:45:39.955 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:45:39.955 Simple channel: Yes
+. 2015-07-28 09:45:39.955 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:45:39.956 Shell: default
+. 2015-07-28 09:45:39.956 EOL: 0, UTF: 2
+. 2015-07-28 09:45:39.956 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:45:39.956 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:45:39.956 SFTP Bugs: A,A
+. 2015-07-28 09:45:39.956 SFTP Server: default
+. 2015-07-28 09:45:39.956 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:45:39.956 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:45:39.956 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:45:39.956 --------------------------------------------------------------------------
+. 2015-07-28 09:45:40.031 Looking up host "192.168.7.2"
+. 2015-07-28 09:45:40.031 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:45:40.088 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:45:40.088 Using SSH protocol version 2
+. 2015-07-28 09:45:40.088 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:45:40.094 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:45:40.110 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:45:41.143 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:45:41.156 Host key matches cached key
+. 2015-07-28 09:45:41.156 Host key fingerprint is:
+. 2015-07-28 09:45:41.156 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:45:41.156 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:45:41.156 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:45:41.157 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:45:41.157 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:45:41.158 Using username "machinekit".
+. 2015-07-28 09:45:41.213 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:45:41.213 Using stored password.
+. 2015-07-28 09:45:41.266 Sent password
+. 2015-07-28 09:45:41.272 Access granted
+. 2015-07-28 09:45:41.272 Opening session as main channel
+. 2015-07-28 09:45:41.288 Opened main channel
+. 2015-07-28 09:45:41.335 Started a shell/command
+. 2015-07-28 09:45:41.374 --------------------------------------------------------------------------
+. 2015-07-28 09:45:41.374 Using SFTP protocol.
+. 2015-07-28 09:45:41.376 Doing startup conversation with host.
+> 2015-07-28 09:45:41.438 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:45:41.439 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:45:41.440 SFTP version 3 negotiated.
+. 2015-07-28 09:45:41.440 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:45:41.440 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:45:41.440 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:45:41.440 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:45:41.440 We believe the server has signed timestamps bug
+. 2015-07-28 09:45:41.440 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:45:41.440 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:45:41.485 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:45:41.485 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:45:41.485 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:45:41.487 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:45:41.487 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:45:41.487 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:45:41.487 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:45:41.488 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:45:41.488 Getting current directory name.
+. 2015-07-28 09:45:41.637 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:45:41.637 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:45:41.639 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:45:41.639 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:45:41.643 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:45:41.643 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:45:41.644 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:45:41.644 Status code: 1
+> 2015-07-28 09:45:41.644 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:45:41.645 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:41.645 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:41.645 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:41.645 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:41.645 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:41.645 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:41.645 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:41.738 Startup conversation with host finished.
+. 2015-07-28 09:45:43.279 Closing connection.
+. 2015-07-28 09:45:43.279 Sending special code: 12
+. 2015-07-28 09:45:43.279 Sent EOF message
+. 2015-07-28 09:45:57.393 --------------------------------------------------------------------------
+. 2015-07-28 09:45:57.393 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 09:45:57.394 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:45:57.394 Local account: thinkpad\alexander
+. 2015-07-28 09:45:57.394 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:45:57.394 Process ID: 63
+. 2015-07-28 09:45:57.394 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" machinekit@192.168.7.2
+. 2015-07-28 09:45:57.394 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 09:45:57.394 Login time: Tuesday, July 28, 2015 9:45:57 AM
+. 2015-07-28 09:45:57.394 --------------------------------------------------------------------------
+. 2015-07-28 09:45:57.394 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:45:57.394 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:45:57.395 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:45:57.395 Tunnel: No
+. 2015-07-28 09:45:57.395 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:45:57.395 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:45:57.395 Proxy: none
+. 2015-07-28 09:45:57.395 Send buffer: 262144
+. 2015-07-28 09:45:57.395 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:45:57.395 Bypass authentication: No
+. 2015-07-28 09:45:57.395 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:45:57.395 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:45:57.395 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:45:57.395 Simple channel: Yes
+. 2015-07-28 09:45:57.395 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:45:57.395 Shell: default
+. 2015-07-28 09:45:57.395 EOL: 0, UTF: 2
+. 2015-07-28 09:45:57.395 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:45:57.395 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:45:57.395 SFTP Bugs: A,A
+. 2015-07-28 09:45:57.395 SFTP Server: default
+. 2015-07-28 09:45:57.395 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:45:57.395 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:45:57.395 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:45:57.395 --------------------------------------------------------------------------
+. 2015-07-28 09:45:57.486 Looking up host "192.168.7.2"
+. 2015-07-28 09:45:57.486 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:45:57.542 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:45:57.542 Using SSH protocol version 2
+. 2015-07-28 09:45:57.542 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:45:57.548 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:45:57.567 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:45:58.528 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:45:58.555 Host key matches cached key
+. 2015-07-28 09:45:58.555 Host key fingerprint is:
+. 2015-07-28 09:45:58.555 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:45:58.556 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:45:58.556 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:45:58.556 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:45:58.556 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:45:58.557 Using username "machinekit".
+. 2015-07-28 09:45:58.616 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:45:58.616 Using stored password.
+. 2015-07-28 09:45:58.667 Sent password
+. 2015-07-28 09:45:58.673 Access granted
+. 2015-07-28 09:45:58.673 Opening session as main channel
+. 2015-07-28 09:45:58.702 Opened main channel
+. 2015-07-28 09:45:58.748 Started a shell/command
+. 2015-07-28 09:45:58.775 --------------------------------------------------------------------------
+. 2015-07-28 09:45:58.775 Using SFTP protocol.
+. 2015-07-28 09:45:58.777 Doing startup conversation with host.
+> 2015-07-28 09:45:58.839 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:45:58.841 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:45:58.841 SFTP version 3 negotiated.
+. 2015-07-28 09:45:58.841 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:45:58.841 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:45:58.841 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:45:58.841 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:45:58.841 We believe the server has signed timestamps bug
+. 2015-07-28 09:45:58.841 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:45:58.841 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:45:58.884 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:45:58.885 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:45:58.885 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:45:58.886 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:45:58.886 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:45:58.886 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:45:58.886 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:45:58.887 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:45:58.887 Getting current directory name.
+. 2015-07-28 09:45:59.066 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:45:59.066 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:45:59.068 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:45:59.068 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:45:59.072 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:45:59.072 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:45:59.073 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:45:59.073 Status code: 1
+> 2015-07-28 09:45:59.073 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:45:59.073 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:59.073 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:59.073 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:59.073 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:59.074 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:59.074 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:45:59.074 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:45:59.168 Startup conversation with host finished.
+. 2015-07-28 09:46:06.865 Closing connection.
+. 2015-07-28 09:46:06.865 Sending special code: 12
+. 2015-07-28 09:46:06.865 Sent EOF message
+. 2015-07-28 09:46:10.635 --------------------------------------------------------------------------
+. 2015-07-28 09:46:10.635 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 09:46:10.636 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:46:10.637 Local account: thinkpad\alexander
+. 2015-07-28 09:46:10.637 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:46:10.637 Process ID: 56
+. 2015-07-28 09:46:10.637 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" machinekit@192.168.7.2
+. 2015-07-28 09:46:10.637 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 09:46:10.637 Login time: Tuesday, July 28, 2015 9:46:10 AM
+. 2015-07-28 09:46:10.637 --------------------------------------------------------------------------
+. 2015-07-28 09:46:10.637 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:46:10.637 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:46:10.637 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:46:10.637 Tunnel: No
+. 2015-07-28 09:46:10.637 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:46:10.637 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:46:10.637 Proxy: none
+. 2015-07-28 09:46:10.637 Send buffer: 262144
+. 2015-07-28 09:46:10.637 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:46:10.637 Bypass authentication: No
+. 2015-07-28 09:46:10.637 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:46:10.637 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:46:10.638 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:46:10.638 Simple channel: Yes
+. 2015-07-28 09:46:10.638 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:46:10.638 Shell: default
+. 2015-07-28 09:46:10.638 EOL: 0, UTF: 2
+. 2015-07-28 09:46:10.638 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:46:10.638 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:46:10.638 SFTP Bugs: A,A
+. 2015-07-28 09:46:10.638 SFTP Server: default
+. 2015-07-28 09:46:10.638 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:46:10.638 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:46:10.638 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:46:10.638 --------------------------------------------------------------------------
+. 2015-07-28 09:46:10.717 Looking up host "192.168.7.2"
+. 2015-07-28 09:46:10.717 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:46:10.773 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:46:10.773 Using SSH protocol version 2
+. 2015-07-28 09:46:10.773 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:46:10.779 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:46:10.794 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:46:11.852 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:46:11.882 Host key matches cached key
+. 2015-07-28 09:46:11.882 Host key fingerprint is:
+. 2015-07-28 09:46:11.882 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:46:11.883 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:46:11.883 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:46:11.883 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:46:11.883 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:46:11.884 Using username "machinekit".
+. 2015-07-28 09:46:11.940 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:46:11.940 Using stored password.
+. 2015-07-28 09:46:11.992 Sent password
+. 2015-07-28 09:46:11.997 Access granted
+. 2015-07-28 09:46:11.998 Opening session as main channel
+. 2015-07-28 09:46:12.015 Opened main channel
+. 2015-07-28 09:46:12.062 Started a shell/command
+. 2015-07-28 09:46:12.097 --------------------------------------------------------------------------
+. 2015-07-28 09:46:12.097 Using SFTP protocol.
+. 2015-07-28 09:46:12.098 Doing startup conversation with host.
+> 2015-07-28 09:46:12.164 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:46:12.166 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:46:12.166 SFTP version 3 negotiated.
+. 2015-07-28 09:46:12.166 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:46:12.166 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:46:12.166 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:46:12.166 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:46:12.166 We believe the server has signed timestamps bug
+. 2015-07-28 09:46:12.166 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:46:12.166 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:46:12.208 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:46:12.208 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:46:12.208 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:46:12.210 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:46:12.210 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:46:12.210 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:46:12.210 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:46:12.211 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:46:12.211 Getting current directory name.
+. 2015-07-28 09:46:12.360 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:46:12.360 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:46:12.362 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:46:12.362 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:46:12.365 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:46:12.365 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:46:12.367 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:46:12.367 Status code: 1
+> 2015-07-28 09:46:12.367 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:46:12.367 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:46:12.367 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:46:12.367 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:46:12.367 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:46:12.367 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:46:12.367 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:46:12.367 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:46:12.461 Startup conversation with host finished.
+. 2015-07-28 09:46:15.646 Closing connection.
+. 2015-07-28 09:46:15.646 Sending special code: 12
+. 2015-07-28 09:46:15.646 Sent EOF message
+. 2015-07-28 09:53:35.776 --------------------------------------------------------------------------
+. 2015-07-28 09:53:35.776 WinSCP Version 5.5.4 (Build 4433) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+. 2015-07-28 09:53:35.776 Configuration: E:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 09:53:35.776 Local account: user-PC\Administrator
+. 2015-07-28 09:53:35.776 Working directory: E:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 09:53:35.776 Process ID: 6380
+. 2015-07-28 09:53:35.776 Command-line: "E:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="E:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="E:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2015-07-28 09:53:35.776 Time zone: Current: GMT+2, Standard: GMT+1 (Mitteleuropäische Zeit), DST: GMT+2 (Mitteleuropäische Sommerzeit), DST Start: 29.03.2015, DST End: 25.10.2015
+. 2015-07-28 09:53:35.776 Login time: Dienstag, 28. Juli 2015 09:53:35
+. 2015-07-28 09:53:35.776 --------------------------------------------------------------------------
+. 2015-07-28 09:53:35.776 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 09:53:35.776 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 09:53:35.776 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 09:53:35.776 Tunnel: No
+. 2015-07-28 09:53:35.776 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 09:53:35.776 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 09:53:35.776 Proxy: none
+. 2015-07-28 09:53:35.776 Send buffer: 262144
+. 2015-07-28 09:53:35.776 SSH protocol version: 2; Compression: No
+. 2015-07-28 09:53:35.776 Bypass authentication: No
+. 2015-07-28 09:53:35.776 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 09:53:35.776 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 09:53:35.776 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 09:53:35.776 Simple channel: Yes
+. 2015-07-28 09:53:35.776 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 09:53:35.776 Shell: default
+. 2015-07-28 09:53:35.776 EOL: 0, UTF: 2
+. 2015-07-28 09:53:35.776 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 09:53:35.776 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 09:53:35.776 SFTP Bugs: A,A
+. 2015-07-28 09:53:35.776 SFTP Server: default
+. 2015-07-28 09:53:35.776 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 09:53:35.776 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 09:53:35.776 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 09:53:35.776 --------------------------------------------------------------------------
+. 2015-07-28 09:53:35.885 Looking up host "192.168.7.2"
+. 2015-07-28 09:53:35.885 Connecting to 192.168.7.2 port 22
+. 2015-07-28 09:53:35.932 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 09:53:35.932 Using SSH protocol version 2
+. 2015-07-28 09:53:35.932 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 09:53:35.947 Doing Diffie-Hellman group exchange
+. 2015-07-28 09:53:35.994 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 09:53:37.149 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:53:37.180 Host key matches cached key
+. 2015-07-28 09:53:37.180 Host key fingerprint is:
+. 2015-07-28 09:53:37.180 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 09:53:37.180 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 09:53:37.180 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 09:53:37.180 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 09:53:37.180 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 09:53:37.180 Using username "machinekit".
+. 2015-07-28 09:53:37.242 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 09:53:37.258 Using stored password.
+. 2015-07-28 09:53:37.305 Sent password
+. 2015-07-28 09:53:37.305 Access granted
+. 2015-07-28 09:53:37.305 Opening session as main channel
+. 2015-07-28 09:53:37.320 Opened main channel
+. 2015-07-28 09:53:37.367 Started a shell/command
+. 2015-07-28 09:53:37.429 --------------------------------------------------------------------------
+. 2015-07-28 09:53:37.461 Using SFTP protocol.
+. 2015-07-28 09:53:37.461 Doing startup conversation with host.
+> 2015-07-28 09:53:37.492 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 09:53:37.492 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 09:53:37.492 SFTP version 3 negotiated.
+. 2015-07-28 09:53:37.492 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 09:53:37.492 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 09:53:37.492 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 09:53:37.492 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 09:53:37.492 We believe the server has signed timestamps bug
+. 2015-07-28 09:53:37.492 We will use UTF-8 strings when appropriate
+. 2015-07-28 09:53:37.492 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 09:53:37.554 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 09:53:37.554 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 09:53:37.554 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 09:53:37.554 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 09:53:37.554 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 09:53:37.554 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 09:53:37.554 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 09:53:37.554 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 09:53:37.554 Getting current directory name.
+. 2015-07-28 09:53:37.741 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 09:53:37.741 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 09:53:37.741 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 09:53:37.741 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 09:53:37.741 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 09:53:37.741 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 09:53:37.741 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 09:53:37.741 Status code: 1
+> 2015-07-28 09:53:37.741 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 09:53:37.741 ..;d;4096;2015-03-16T01:45:12.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:53:37.741 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:53:37.741 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:53:37.741 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:53:37.741 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:53:37.741 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 09:53:37.741 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 09:53:37.866 Startup conversation with host finished.
+. 2015-07-28 09:53:41.548 Closing connection.
+. 2015-07-28 09:53:41.548 Sending special code: 12
+. 2015-07-28 09:53:41.548 Sent EOF message
+. 2015-07-28 10:27:16.691 --------------------------------------------------------------------------
+. 2015-07-28 10:27:16.693 WinSCP Version 5.5.4 (Build 4433) (OS 5.1.2600 Service Pack 3 - Microsoft Windows XP)
+. 2015-07-28 10:27:16.695 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 10:27:16.695 Local account: thinkpad\alexander
+. 2015-07-28 10:27:16.695 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 10:27:16.695 Process ID: 42
+. 2015-07-28 10:27:16.695 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" machinekit@192.168.7.2
+. 2015-07-28 10:27:16.695 Time zone: Current: GMT+2, Standard: GMT+1 (Central Europe Standard Time), DST: GMT+2 (Central Europe Daylight Time), DST Start: 3/29/2015, DST End: 10/25/2015
+. 2015-07-28 10:27:16.695 Login time: Tuesday, July 28, 2015 10:27:16 AM
+. 2015-07-28 10:27:16.695 --------------------------------------------------------------------------
+. 2015-07-28 10:27:16.695 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 10:27:16.695 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 10:27:16.695 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 10:27:16.695 Tunnel: No
+. 2015-07-28 10:27:16.696 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 10:27:16.696 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 10:27:16.696 Proxy: none
+. 2015-07-28 10:27:16.696 Send buffer: 262144
+. 2015-07-28 10:27:16.696 SSH protocol version: 2; Compression: No
+. 2015-07-28 10:27:16.696 Bypass authentication: No
+. 2015-07-28 10:27:16.696 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 10:27:16.696 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 10:27:16.696 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 10:27:16.696 Simple channel: Yes
+. 2015-07-28 10:27:16.696 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 10:27:16.696 Shell: default
+. 2015-07-28 10:27:16.696 EOL: 0, UTF: 2
+. 2015-07-28 10:27:16.696 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 10:27:16.696 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 10:27:16.696 SFTP Bugs: A,A
+. 2015-07-28 10:27:16.696 SFTP Server: default
+. 2015-07-28 10:27:16.696 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 10:27:16.696 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 10:27:16.696 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 10:27:16.696 --------------------------------------------------------------------------
+. 2015-07-28 10:27:16.788 Looking up host "192.168.7.2"
+. 2015-07-28 10:27:16.788 Connecting to 192.168.7.2 port 22
+. 2015-07-28 10:27:16.842 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 10:27:16.842 Using SSH protocol version 2
+. 2015-07-28 10:27:16.842 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 10:27:16.846 Doing Diffie-Hellman group exchange
+. 2015-07-28 10:27:16.862 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 10:27:17.853 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 10:27:17.903 Host key matches cached key
+. 2015-07-28 10:27:17.904 Host key fingerprint is:
+. 2015-07-28 10:27:17.904 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 10:27:17.904 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 10:27:17.904 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 10:27:17.904 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 10:27:17.904 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 10:27:17.905 Using username "machinekit".
+. 2015-07-28 10:27:17.964 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 10:27:17.964 Using stored password.
+. 2015-07-28 10:27:18.015 Sent password
+. 2015-07-28 10:27:18.020 Access granted
+. 2015-07-28 10:27:18.020 Opening session as main channel
+. 2015-07-28 10:27:18.033 Opened main channel
+. 2015-07-28 10:27:18.077 Started a shell/command
+. 2015-07-28 10:27:18.122 --------------------------------------------------------------------------
+. 2015-07-28 10:27:18.122 Using SFTP protocol.
+. 2015-07-28 10:27:18.124 Doing startup conversation with host.
+> 2015-07-28 10:27:18.190 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 10:27:18.191 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 10:27:18.191 SFTP version 3 negotiated.
+. 2015-07-28 10:27:18.191 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 10:27:18.191 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 10:27:18.191 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 10:27:18.191 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 10:27:18.191 We believe the server has signed timestamps bug
+. 2015-07-28 10:27:18.191 We will use UTF-8 strings when appropriate
+. 2015-07-28 10:27:18.191 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 10:27:18.233 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 10:27:18.233 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 10:27:18.233 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 10:27:18.235 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 10:27:18.235 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 10:27:18.235 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 10:27:18.235 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 10:27:18.235 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 10:27:18.236 Getting current directory name.
+. 2015-07-28 10:27:18.385 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 10:27:18.385 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 10:27:18.386 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 10:27:18.386 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 10:27:18.389 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 10:27:18.389 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 10:27:18.390 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 10:27:18.390 Status code: 1
+> 2015-07-28 10:27:18.390 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 10:27:18.391 ..;d;4096;2015-03-16T01:03:31.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 10:27:18.391 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 10:27:18.391 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 10:27:18.391 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 10:27:18.391 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 10:27:18.391 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 10:27:18.391 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 10:27:18.486 Startup conversation with host finished.
+. 2015-07-28 10:27:20.532 Closing connection.
+. 2015-07-28 10:27:20.532 Sending special code: 12
+. 2015-07-28 10:27:20.532 Sent EOF message
+. 2015-07-28 16:07:58.638 --------------------------------------------------------------------------
+. 2015-07-28 16:07:58.638 WinSCP Version 5.5.4 (Build 4433) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+. 2015-07-28 16:07:58.638 Configuration: E:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2015-07-28 16:07:58.638 Local account: user-PC\Administrator
+. 2015-07-28 16:07:58.638 Working directory: E:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2015-07-28 16:07:58.638 Process ID: 7776
+. 2015-07-28 16:07:58.638 Command-line: "E:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="E:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="E:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2015-07-28 16:07:58.638 Time zone: Current: GMT+2, Standard: GMT+1 (Mitteleuropäische Zeit), DST: GMT+2 (Mitteleuropäische Sommerzeit), DST Start: 29.03.2015, DST End: 25.10.2015
+. 2015-07-28 16:07:58.638 Login time: Dienstag, 28. Juli 2015 16:07:58
+. 2015-07-28 16:07:58.638 --------------------------------------------------------------------------
+. 2015-07-28 16:07:58.638 Session name: machinekit@192.168.7.2 (Site)
+. 2015-07-28 16:07:58.638 Host name: 192.168.7.2 (Port: 22)
+. 2015-07-28 16:07:58.638 User name: machinekit (Password: Yes, Key file: No)
+. 2015-07-28 16:07:58.638 Tunnel: No
+. 2015-07-28 16:07:58.638 Transfer Protocol: SFTP (SCP)
+. 2015-07-28 16:07:58.638 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-28 16:07:58.638 Proxy: none
+. 2015-07-28 16:07:58.638 Send buffer: 262144
+. 2015-07-28 16:07:58.638 SSH protocol version: 2; Compression: No
+. 2015-07-28 16:07:58.638 Bypass authentication: No
+. 2015-07-28 16:07:58.638 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-28 16:07:58.638 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-28 16:07:58.638 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2015-07-28 16:07:58.638 Simple channel: Yes
+. 2015-07-28 16:07:58.638 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-28 16:07:58.638 Shell: default
+. 2015-07-28 16:07:58.638 EOL: 0, UTF: 2
+. 2015-07-28 16:07:58.638 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-28 16:07:58.638 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-28 16:07:58.638 SFTP Bugs: A,A
+. 2015-07-28 16:07:58.638 SFTP Server: default
+. 2015-07-28 16:07:58.638 Local directory: C:\, Remote directory: /home/machinekit/nc_files, Update: Yes, Cache: Yes
+. 2015-07-28 16:07:58.638 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-28 16:07:58.638 DST mode: 1; Timezone offset: 0h 0m
+. 2015-07-28 16:07:58.638 --------------------------------------------------------------------------
+. 2015-07-28 16:07:58.732 Looking up host "192.168.7.2"
+. 2015-07-28 16:07:58.732 Connecting to 192.168.7.2 port 22
+. 2015-07-28 16:07:58.778 Server version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+. 2015-07-28 16:07:58.778 Using SSH protocol version 2
+. 2015-07-28 16:07:58.778 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2015-07-28 16:07:58.794 Doing Diffie-Hellman group exchange
+. 2015-07-28 16:07:58.841 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-28 16:07:59.886 Verifying host key rsa2 0x10001,0xed2ae37736ccac43 8d35f02327d2a36a f379dc2e641bfc8d 765a8cea92b0c4d4 924afceded23657c dd778d37c4dc6ed4 b412d3f4289aa95d 3f083ed3c3bc9f53 7d223821b4459287 2e220168c0ecc529 c0ccf82d299985ea 99362fd9a359d499 22bc269533116983 72ec026301a36819 c0323c92d5ee2a01 bb06c7d0daef352d c5ff1f20507ddbde 0900b7e1f80382d0 8b929bd8c482f9df 880c1e5ed3e977c9 bc9d2330b462d8f8 3fec09ec95bf6077 0f094cce2cb64763 bce45c60303dc6de 8f96d8e08a69306c e3215bd162d6a074 3dca03594c141a90 e04e49eb1da2b48c 43e6160d148592f1 35a78b28c9ae6242 e2b46fcc730303e3 c85598ad00e297e9  with fingerprint ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 16:07:59.902 Host key matches cached key
+. 2015-07-28 16:07:59.902 Host key fingerprint is:
+. 2015-07-28 16:07:59.902 ssh-rsa 2048 76:f9:df:0c:9f:6a:f0:14:c8:1f:54:a0:d2:b5:a8:e4
+. 2015-07-28 16:07:59.902 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-28 16:07:59.902 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-28 16:07:59.902 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-28 16:07:59.902 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-28 16:07:59.902 Using username "machinekit".
+. 2015-07-28 16:07:59.964 Prompt (7, SSH password, , &Password: )
+. 2015-07-28 16:07:59.980 Using stored password.
+. 2015-07-28 16:08:00.026 Sent password
+. 2015-07-28 16:08:00.026 Access granted
+. 2015-07-28 16:08:00.026 Opening session as main channel
+. 2015-07-28 16:08:00.042 Opened main channel
+. 2015-07-28 16:08:00.089 Started a shell/command
+. 2015-07-28 16:08:00.151 --------------------------------------------------------------------------
+. 2015-07-28 16:08:00.151 Using SFTP protocol.
+. 2015-07-28 16:08:00.151 Doing startup conversation with host.
+> 2015-07-28 16:08:00.214 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-28 16:08:00.214 Type: SSH_FXP_VERSION, Size: 124, Number: -1
+. 2015-07-28 16:08:00.214 SFTP version 3 negotiated.
+. 2015-07-28 16:08:00.214 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-28 16:08:00.214 Supports statvfs@openssh.com extension version "2"
+. 2015-07-28 16:08:00.214 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-28 16:08:00.214 Unknown server extension hardlink@openssh.com="1"
+. 2015-07-28 16:08:00.214 We believe the server has signed timestamps bug
+. 2015-07-28 16:08:00.214 We will use UTF-8 strings when appropriate
+. 2015-07-28 16:08:00.214 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-28 16:08:00.276 Changing directory to "/home/machinekit/nc_files".
+. 2015-07-28 16:08:00.276 Getting real path for '/home/machinekit/nc_files'
+> 2015-07-28 16:08:00.276 Type: SSH_FXP_REALPATH, Size: 34, Number: 16
+< 2015-07-28 16:08:00.276 Type: SSH_FXP_NAME, Size: 71, Number: 16
+. 2015-07-28 16:08:00.276 Real path is '/home/machinekit/nc_files'
+. 2015-07-28 16:08:00.276 Trying to open directory "/home/machinekit/nc_files".
+> 2015-07-28 16:08:00.276 Type: SSH_FXP_LSTAT, Size: 34, Number: 263
+< 2015-07-28 16:08:00.276 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-28 16:08:00.276 Getting current directory name.
+. 2015-07-28 16:08:00.463 Listing directory "/home/machinekit/nc_files".
+> 2015-07-28 16:08:00.463 Type: SSH_FXP_OPENDIR, Size: 34, Number: 523
+< 2015-07-28 16:08:00.463 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2015-07-28 16:08:00.463 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2015-07-28 16:08:00.463 Type: SSH_FXP_NAME, Size: 1007, Number: 780
+> 2015-07-28 16:08:00.463 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2015-07-28 16:08:00.463 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2015-07-28 16:08:00.463 Status code: 1
+> 2015-07-28 16:08:00.463 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2015-07-28 16:08:00.463 ..;d;4096;2015-03-16T01:01:19.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 16:08:00.463 exerc3-BuildingBrick_Uni-fraes4-1.ngc;-;2106;2015-03-16T01:42:52.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 16:08:00.463 axle.ngc;-;472579;2015-03-16T02:39:00.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 16:08:00.463 ArmFront_v3_3.ngc;-;882236;2015-03-16T04:31:42.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 16:08:00.463 examples;d;4096;2015-04-02T12:41:51.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 16:08:00.463 Drehteil mit Fase.ngc;-;560;2015-03-16T04:36:38.000Z;"machinekit" [1000];"machinekit" [1000];rw-r--r--;0
+. 2015-07-28 16:08:00.463 share;d;4096;2015-03-16T01:11:03.000Z;"machinekit" [1000];"machinekit" [1000];rwxr-xr-x;0
+. 2015-07-28 16:08:00.588 Startup conversation with host finished.
+. 2015-07-28 16:08:02.616 Closing connection.
+. 2015-07-28 16:08:02.616 Sending special code: 12
+. 2015-07-28 16:08:02.616 Sent EOF message

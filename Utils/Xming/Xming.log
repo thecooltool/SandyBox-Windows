@@ -1,0 +1,16 @@
+Welcome to the Xming X Server
+Vendor: Colin Harrison
+Release: 6.9.0.31
+FreeType2: 2.3.4
+Contact: http://sourceforge.net/forum/?group_id=156984
+
+.\Xming.exe :0 -dpi 85 -clipboard -trayicon -c -multiwindow -reset 
+ -terminate -unixkill -logfile Xming.log
+
+XdmcpRegisterConnection: newAddress 192.168.7.1
+winCheckDisplayNumber - Xming is already running on display 0
+
+Fatal server error:
+InitOutput - Duplicate invocation on display number: 0.  Exiting.
+
+winDeinitMultiWindowWM - Noting shutdown in progress
