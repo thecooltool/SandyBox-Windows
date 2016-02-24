@@ -1,4 +1,5 @@
 @echo off
+cd ..
 cd Utils\Xming
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "The Sandy-Box will now shutdown, please close all open files."

@@ -1,0 +1,5 @@
+Uni-fraes-4_sc ......... Uni-Fraes4 with Milling/Engraving Spindle (art.no. 164 420 CNC)
+
+Uni-fraes-4_sw ......... Uni-Fraes4 with End-switch set (art.no. CNC-switch)
+
+Uni-fraes-4_sw_sc ......... Uni-Fraes4 with End-switch set and Milling/Engraving Spindle
