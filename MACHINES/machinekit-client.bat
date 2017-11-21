@@ -1,7 +1,7 @@
 @echo off
 
 cd ..
-cd Utils\machinekit-client
+cd Utils\MachinekitClient
 
 start machinekit-client.exe --config bbb.json
 
