@@ -38,6 +38,8 @@ ApplicationItem {
     property var g5xOffset: _ready ? _scalePosition(status.motion.g5xOffset) : {"x":0.0, "y":0.0, "z":0.0, "a":0.0, "b":0.0, "c":0.0, "u":0.0, "v":0.0, "w":0.0}
     property var g92Offset: _ready ? _scalePosition(status.motion.g92Offset) : {"x":0.0, "y":0.0, "z":0.0, "a":0.0, "b":0.0, "c":0.0, "u":0.0, "v":0.0, "w":0.0}
     property var toolOffset: _ready ? _scalePosition(status.io.toolOffset) : {"x":0.0, "y":0.0, "z":0.0, "a":0.0, "b":0.0, "c":0.0, "u":0.0, "v":0.0, "w":0.0}
+    property double rotationXy: _ready ? status.motion.rotationXy : 0.0
+    property bool lathe: _ready ? status.config.lathe : false
     property double velocity: _ready ? status.motion.currentVel * _timeFactor * _distanceFactor : 0.0
     property double distanceToGo: _ready ? status.motion.distanceToGo * _distanceFactor : 0.0
     property bool offsetsVisible: settings.initialized && settings.values.dro.showOffsets
@@ -46,11 +48,12 @@ ApplicationItem {
     property int positionFeedback: _ready ? status.config.positionFeedback : ApplicationStatus.ActualPositionFeedback
     property int positionOffset: _ready ? status.config.positionOffset : ApplicationStatus.RelativePositionOffset
 
-    property bool _ready: status.synced
-    property var _axisNames: helper.ready ? helper.axisNames : ["x", "y", "z", "a"]
-    property double _timeFactor: helper.ready ? helper.timeFactor : 1
-    property double _distanceFactor: helper.ready ? helper.distanceFactor : 1
-    property string _distanceUnits: helper.ready ? helper.distanceUnits: "mm"
+    readonly property bool _ready: status.synced
+    readonly property var _axisNames: helper.ready ? helper.axisNames : ["x", "y", "z", "a"]
+    readonly property var _axisIndices: helper.ready ? helper.axisIndices : [0, 1, 2, 3]
+    readonly property double _timeFactor: helper.ready ? helper.timeFactor : 1
+    readonly property double _distanceFactor: helper.ready ? helper.distanceFactor : 1
+    readonly property string _distanceUnits: helper.ready ? helper.distanceUnits: "mm"
 
     function _scalePosition(pos)
     {

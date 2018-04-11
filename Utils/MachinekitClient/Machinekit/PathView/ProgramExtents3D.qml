@@ -71,6 +71,7 @@ Canvas3D {
             yAxisOffset = Qt.vector3d(root.maximum.x + lineOffset, root.minimum.y, root.minimum.z);
             break;
         case "Front":
+        case "Lathe":
             yAxisVisible = false;
             xAxisRotation = 90;
             xAxisOffset = Qt.vector3d(root.minimum.x, 0.0, root.minimum.z - lineOffset);
@@ -213,13 +214,16 @@ Canvas3D {
         onAxesChanged.connect(needsUpdate);
         onMaximumChanged.connect(needsUpdate);
         onMinimumChanged.connect(needsUpdate);
+        onLimitMaximumChanged.connect(needsUpdate);
+        onLimitMinimumChanged.connect(needsUpdate);
+        onLineWidthChanged.connect(needsUpdate);
         onColorChanged.connect(needsUpdate);
         onTextSizeChanged.connect(needsUpdate);
         onPrefixChanged.connect(needsUpdate);
         onSuffixChanged.connect(needsUpdate);
         onDecimalsChanged.connect(needsUpdate);
-        onViewModeChanged.connect(needsUpdate);
         onScaleFactorChanged.connect(needsUpdate);
+        onViewModeChanged.connect(needsUpdate);
     }
 
     function _format(number)

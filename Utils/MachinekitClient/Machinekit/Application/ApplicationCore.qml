@@ -36,10 +36,12 @@ Item {
     property Item notifications: null
     property string applicationName: "machinekit"
 
+    signal programReloaded()
+    signal programClosed()
+
     id: applicationCore
 
     Component.onCompleted: {
-        file.onUploadFinished.connect(_fileUploadFinished);
         error.onMessageReceived.connect(_errorMessageReceived);
         file.onErrorChanged.connect(_fileServiceError);
         status.onErrorStringChanged.connect(_statusServiceError);
@@ -49,61 +51,29 @@ Item {
 
     QtObject {
         id: d
-        property bool ignoreNextFileChange: false // helper to prevent downloading file we just uploaded
-        readonly property string remoteFile: "file://" + status.task.file
+        readonly property string remoteFilePath: "file://" +  status.task.file
         readonly property string remotePath: "file://" + status.config.remotePath
-
-        onRemoteFileChanged: _checkRemoteFile()
-        onRemotePathChanged: {
-            applicationFile.remotePath = remotePath; // make this is set before calling the next function
-            _checkRemoteFile();
-        }
     }
 
-    function ignoreNextFileChange() {
-        d.ignoreNextFileChange = true;
-    }
-
-    function _checkRemoteFile() {
-        if (file.remoteFilePath === d.remoteFile) {
-            return; // file did not change
-        }
-
-        if (d.remotePath === "file://") {
-            return; // remote path is invalid
-        }
-
-        if (d.remoteFile === "file://") {
-            file.remoteFilePath = d.remoteFile; // unload program
-        }
-        else if (d.remoteFile.indexOf(d.remotePath) === 0) {
-            file.remoteFilePath = d.remoteFile;
-            if (!d.ignoreNextFileChange) {
-                file.startDownload(); // only start download when program is open
-            }
-            else {
-                d.ignoreNextFileChange = false;
-            }
-        }
-        else {
-            return; // remoteFilePaths stays unchanged (subprogram)
-        }
-    }
-
-    function _fileUploadFinished() {
+    function executeProgram(remoteFilePath) {
         if (status.task.taskMode !== ApplicationStatus.TaskModeAuto) {
             command.setTaskMode('execute', ApplicationCommand.TaskModeAuto);
         }
-        if (status.task.file !== "") {
-            command.resetProgram('execute');
-        }
-        ignoreNextFileChange()
         command.resetProgram('execute');
-        command.openProgram('execute', file.remoteFilePath);
+        command.openProgram('execute', remoteFilePath);
     }
 
-    function _localFileChanged() {
-        file.startUpload();
+    function reloadProgram() {
+        executeProgram(file.remoteFilePath);
+        programReloaded();
+    }
+
+    function closeProgram() {
+        if (status.task.taskMode !== ApplicationStatus.TaskModeAuto) {
+            command.setTaskMode('execute', ApplicationCommand.TaskModeAuto);
+        }
+        command.resetProgram('execute');
+        programClosed();
     }
 
     function _errorMessageReceived(type, text) {
@@ -195,6 +165,30 @@ Item {
         id: applicationFile
         uri: fileService.uri
         ready: fileService.ready
+
+        onUploadFinished: {
+            fileSyncHandler.ignoreNextChange = true;
+            executeProgram(remoteFilePath);
+        }
+    }
+
+    ApplicationFileSyncHandler {
+        id: fileSyncHandler
+        ready: applicationFile.ready && applicationStatus.ready && applicationCommand.ready
+        remoteFilePath: d.remoteFilePath
+        remotePath: d.remotePath
+        ignoreNextChange: false
+
+        onStartFileDownload: {
+            applicationFile.remoteFilePath = filePath;
+            applicationFile.remotePath = remotePath;  // prevents race condition
+            applicationFile.startDownload();
+        }
+
+        onRemotePathChanged: {
+            // need to set remotePath if file is going to be uploaded from local computer
+            applicationFile.remotePath = d.remotePath;
+        }
     }
 
     FileWatcher {
@@ -202,7 +196,13 @@ Item {
         fileUrl: applicationFile.localFilePath
         enabled: applicationFile.transferState === ApplicationFile.NoTransfer
         recursive: false
-        onFileChanged: _localFileChanged()
+
+        onFileChanged: {
+            // file changes when program is running would cause problems on execution
+            if (status.synced && !status.running) {
+                applicationFile.startUpload();
+            }
+        }
     }
 
     ApplicationHelper {

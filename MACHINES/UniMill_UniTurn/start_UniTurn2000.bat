@@ -4,4 +4,4 @@ cd ..
 cd ..
 cd Utils\Xming 
 
-start.bat UniTurn2000.ini
+start.bat UniTurn2000v2.ini
