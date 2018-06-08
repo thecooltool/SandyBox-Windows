@@ -1,1 +1,0 @@
-Use "machinekit-client" for art.no. Uni-Print-3d

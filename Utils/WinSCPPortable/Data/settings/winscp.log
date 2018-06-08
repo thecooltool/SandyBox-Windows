@@ -14299,3 +14299,337 @@
 . 2018-04-11 16:54:02.854 Closing connection.
 . 2018-04-11 16:54:02.855 Sending special code: 12
 . 2018-04-11 16:54:02.855 Sent EOF message
+. 2018-04-16 17:25:22.562 --------------------------------------------------------------------------
+. 2018-04-16 17:25:22.562 WinSCP Version 5.5.4 (Build 4433) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+. 2018-04-16 17:25:22.562 Configuration: D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini
+. 2018-04-16 17:25:22.562 Local account: THECOOLTOOL\Sascha
+. 2018-04-16 17:25:22.562 Working directory: D:\Windows\Utils\WinSCPPortable\App\WinSCP
+. 2018-04-16 17:25:22.562 Process ID: 5692
+. 2018-04-16 17:25:22.562 Command-line: "D:\Windows\Utils\WinSCPPortable\App\WinSCP\WinSCP.exe" /ini="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.ini" /log="D:\Windows\Utils\WinSCPPortable\Data\settings\winscp.log" "machinekit@192.168.7.2"
+. 2018-04-16 17:25:22.562 Time zone: Current: GMT+2, Standard: GMT+1 (Mitteleuropäische Zeit), DST: GMT+2 (Mitteleuropäische Sommerzeit), DST Start: 25.03.2018, DST End: 28.10.2018
+. 2018-04-16 17:25:22.562 Login time: Montag, 16. April 2018 17:25:22
+. 2018-04-16 17:25:22.562 --------------------------------------------------------------------------
+. 2018-04-16 17:25:22.562 Session name: machinekit@192.168.7.2 (Site)
+. 2018-04-16 17:25:22.562 Host name: 192.168.7.2 (Port: 22)
+. 2018-04-16 17:25:22.562 User name: machinekit (Password: Yes, Key file: No)
+. 2018-04-16 17:25:22.562 Tunnel: No
+. 2018-04-16 17:25:22.562 Transfer Protocol: SFTP (SCP)
+. 2018-04-16 17:25:22.562 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2018-04-16 17:25:22.562 Proxy: none
+. 2018-04-16 17:25:22.562 Send buffer: 262144
+. 2018-04-16 17:25:22.562 SSH protocol version: 2; Compression: No
+. 2018-04-16 17:25:22.562 Bypass authentication: No
+. 2018-04-16 17:25:22.562 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2018-04-16 17:25:22.562 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2018-04-16 17:25:22.562 SSH Bugs: A,A,A,A,A,A,A,A,A,A
+. 2018-04-16 17:25:22.562 Simple channel: Yes
+. 2018-04-16 17:25:22.562 Return code variable: Autodetect; Lookup user groups: A
+. 2018-04-16 17:25:22.562 Shell: default
+. 2018-04-16 17:25:22.562 EOL: 0, UTF: 2
+. 2018-04-16 17:25:22.562 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2018-04-16 17:25:22.562 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2018-04-16 17:25:22.562 SFTP Bugs: A,A
+. 2018-04-16 17:25:22.562 SFTP Server: default
+. 2018-04-16 17:25:22.562 Local directory: C:\Users\Sascha.THECOOLTOOL\Desktop\Machine-config-Ordner\Sicherung-NEU\Konfig_11-04-18-1700, Remote directory: /home/machinekit, Update: Yes, Cache: Yes
+. 2018-04-16 17:25:22.562 Cache directory changes: Yes, Permanent: Yes
+. 2018-04-16 17:25:22.562 DST mode: 1; Timezone offset: 0h 0m
+. 2018-04-16 17:25:22.562 --------------------------------------------------------------------------
+. 2018-04-16 17:25:22.656 Looking up host "192.168.7.2"
+. 2018-04-16 17:25:22.656 Connecting to 192.168.7.2 port 22
+. 2018-04-16 17:25:22.812 Server version: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u1
+. 2018-04-16 17:25:22.812 Using SSH protocol version 2
+. 2018-04-16 17:25:22.812 We claim version: SSH-2.0-WinSCP_release_5.5.4
+. 2018-04-16 17:25:22.827 Using Diffie-Hellman with standard group "group14"
+. 2018-04-16 17:25:22.827 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2018-04-16 17:25:23.124 Verifying host key rsa2 0x10001,0xb8df10998286c605 330afe2851ea1c60 597bdb0a14e1f8e3 c43bb66b009e1fc8 eba7730ef13b89a7 5cc0b4dbd815d070 11bb5793ce67b67e 222ab7a6c02b7254 14b0e57e515b2181 fa822bb8ee9d45d6 2cbcdc5d7bb846c8 243d45d72611666c 35b05456605b4601 9cfe926673f1cc61 062af9db325da756 aa015599a23957cb a0698c13cdc695b2 41ceec531ffa56b3 9fd29a4af07cc626 b798add419a2a85a 3113ce3c21807ba4 48ae398441c8ded3 86c24a5a60b8fbd8 48bbf000021554f3 673e3da91dce7cdc 03fe446d6bfdda8a 8208a1775ee2f896 1799ff16a4a36ec8 19f5d0ffd249683f 584db4bc0de279c2 257cd866083d9974 059d973c31ff85b9  with fingerprint ssh-rsa 2048 24:3c:6b:09:a4:f3:6c:d9:44:34:40:c1:e9:e9:2d:1f
+. 2018-04-16 17:25:23.155 Host key does not match cached key 0x10001,0xa195bb6ea12b85a4 e6954ce5981fde55 28436a7d8b7483ad dc16f1a93d2c1290 6f6cd1efd0060176 041cbda3f80d7ec4 e0b821b7d4cdf3d0 bbe82cf31e8d8949 454df167993b2506 5a64b81ff9a9a8aa fc74804875d31677 ffe32c163cd0e327 44f54f551552e0e0 84d423e01ee1a7da 3741a6bc03618e42 cfa1751b8c739bdf 0ba27e006f56b2e2 1974d59fa2ebe2d1 d16daa82e028fa82 16a8019b47f34f34 fa79255bc62d68d0 1ac0c93781c471f6 5933f1c756431378 68e70c26b4e050ba 7cf5c98464627858 e62bc5e6d00935e7 9da771ada115812b 7a7bf3b315d3bef9 6477a94a85390298 70f974dac167f55b d1f57a1854ae1b13 d610e57b2c6563e7 
+. 2018-04-16 17:25:23.155 Asking user:
+. 2018-04-16 17:25:23.155 **WARNING - POTENTIAL SECURITY BREACH!**
+. 2018-04-16 17:25:23.155 
+. 2018-04-16 17:25:23.155 The server's host key does not match the one WinSCP has in cache. This means that either the server administrator has changed the host key, the server presents different key under certain circumstance, or you have actually connected to another computer pretending to be the server.
+. 2018-04-16 17:25:23.155 
+. 2018-04-16 17:25:23.155 The new rsa2 key fingerprint is:
+. 2018-04-16 17:25:23.155 ssh-rsa 2048 24:3c:6b:09:a4:f3:6c:d9:44:34:40:c1:e9:e9:2d:1f
+. 2018-04-16 17:25:23.155 
+. 2018-04-16 17:25:23.155 If you were expecting this change, trust the new key and want to continue connecting to the server, either press Update to update cache, or press Add to add the new key to the cache while keeping the old one(s). If you want to carry on connecting but without updating the cache, press Skip. If you want to abandon the connection completely, press Cancel. Pressing Cancel is the ONLY guaranteed safe choice. ()
+. 2018-04-16 17:25:24.559 Host key fingerprint is:
+. 2018-04-16 17:25:24.559 ssh-rsa 2048 24:3c:6b:09:a4:f3:6c:d9:44:34:40:c1:e9:e9:2d:1f
+. 2018-04-16 17:25:24.559 Initialised AES-256 SDCTR client->server encryption
+. 2018-04-16 17:25:24.559 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2018-04-16 17:25:24.559 Initialised AES-256 SDCTR server->client encryption
+. 2018-04-16 17:25:24.559 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2018-04-16 17:25:24.559 Using username "machinekit".
+. 2018-04-16 17:25:26.602 Prompt (7, SSH password, , &Password: )
+. 2018-04-16 17:25:26.602 Using stored password.
+. 2018-04-16 17:25:26.649 Sent password
+. 2018-04-16 17:25:26.836 Access granted
+. 2018-04-16 17:25:26.836 Opening session as main channel
+. 2018-04-16 17:25:27.086 Opened main channel
+. 2018-04-16 17:25:27.117 Started a shell/command
+. 2018-04-16 17:25:27.148 --------------------------------------------------------------------------
+. 2018-04-16 17:25:27.148 Using SFTP protocol.
+. 2018-04-16 17:25:27.148 Doing startup conversation with host.
+> 2018-04-16 17:25:27.211 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2018-04-16 17:25:27.211 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2018-04-16 17:25:27.211 SFTP version 3 negotiated.
+. 2018-04-16 17:25:27.211 Unknown server extension posix-rename@openssh.com="1"
+. 2018-04-16 17:25:27.211 Supports statvfs@openssh.com extension version "2"
+. 2018-04-16 17:25:27.211 Unknown server extension fstatvfs@openssh.com="2"
+. 2018-04-16 17:25:27.211 Unknown server extension hardlink@openssh.com="1"
+. 2018-04-16 17:25:27.211 Unknown server extension fsync@openssh.com="1"
+. 2018-04-16 17:25:27.211 We believe the server has signed timestamps bug
+. 2018-04-16 17:25:27.211 We will use UTF-8 strings when appropriate
+. 2018-04-16 17:25:27.211 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2018-04-16 17:25:27.273 Changing directory to "/home/machinekit".
+. 2018-04-16 17:25:27.273 Getting real path for '/home/machinekit'
+> 2018-04-16 17:25:27.273 Type: SSH_FXP_REALPATH, Size: 25, Number: 16
+< 2018-04-16 17:25:27.273 Type: SSH_FXP_NAME, Size: 53, Number: 16
+. 2018-04-16 17:25:27.273 Real path is '/home/machinekit'
+. 2018-04-16 17:25:27.273 Trying to open directory "/home/machinekit".
+> 2018-04-16 17:25:27.273 Type: SSH_FXP_LSTAT, Size: 25, Number: 263
+< 2018-04-16 17:25:27.273 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2018-04-16 17:25:27.273 Getting current directory name.
+. 2018-04-16 17:25:27.460 Listing directory "/home/machinekit".
+> 2018-04-16 17:25:27.460 Type: SSH_FXP_OPENDIR, Size: 25, Number: 523
+< 2018-04-16 17:25:27.460 Type: SSH_FXP_HANDLE, Size: 13, Number: 523
+> 2018-04-16 17:25:27.460 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2018-04-16 17:25:27.460 Type: SSH_FXP_NAME, Size: 2759, Number: 780
+> 2018-04-16 17:25:27.460 Type: SSH_FXP_READDIR, Size: 13, Number: 1036
+< 2018-04-16 17:25:27.585 Type: SSH_FXP_STATUS, Size: 28, Number: 1036
+< 2018-04-16 17:25:27.585 Status code: 1
+> 2018-04-16 17:25:27.585 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+. 2018-04-16 17:25:27.585 nc_files;d;4096;2017-11-30T21:12:06.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:27.585 .nano;d;4096;2017-11-18T14:56:50.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2018-04-16 17:25:27.585 .bash_logout;-;220;2017-11-08T09:45:42.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2018-04-16 17:25:27.585 Machineface;d;4096;2018-04-16T06:25:55.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:27.585 Cetus;d;4096;2018-04-16T06:25:44.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:27.585 .bash_history;-;19157;2018-04-16T11:43:29.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;2
+. 2018-04-16 17:25:27.585 .halcmd_history;-;591;2017-11-30T22:38:39.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;2
+. 2018-04-16 17:25:27.585 ..;d;4096;2017-11-08T09:45:42.000Z;"root" [0];"root" [0];rwxr-xr-x;0
+. 2018-04-16 17:25:27.585 .tooleditrc;-;130;2017-11-15T14:05:24.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2018-04-16 17:25:27.585 .cache;d;4096;2018-04-16T11:42:08.000Z;"machinekit" [1001];"machinekit" [1001];rwx------;2
+. 2018-04-16 17:25:27.585 .axis_mdi_history;-;391;2017-12-01T20:08:51.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2018-04-16 17:25:27.585 machinekit;d;4096;2017-11-08T11:13:26.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:27.585 linuxcnc_print.txt;-;770;2017-12-01T23:34:40.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;0
+. 2018-04-16 17:25:27.585 .axis_preferences;-;870;2017-11-30T18:39:13.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2018-04-16 17:25:27.585 .bashrc;-;3526;2017-11-08T09:45:42.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2018-04-16 17:25:27.585 .Xauthority;-;150;2018-04-16T15:25:05.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;2
+. 2018-04-16 17:25:27.585 linuxcnc_debug.txt;-;131;2017-12-01T23:34:40.000Z;"machinekit" [1001];"machinekit" [1001];rw-------;0
+. 2018-04-16 17:25:27.585 bin;d;4096;2017-11-08T11:56:11.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:27.585 machinekit-configs;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:27.585 .ssh;d;4096;2017-11-08T10:46:04.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2018-04-16 17:25:27.585 .config;d;4096;2017-11-21T11:52:24.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2018-04-16 17:25:27.585 .profile;-;675;2017-11-08T09:45:42.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2018-04-16 17:25:27.710 Startup conversation with host finished.
+. 2018-04-16 17:25:48.271 Cached directory change via "machinekit-configs" to "/home/machinekit/machinekit-configs".
+. 2018-04-16 17:25:48.271 Getting current directory name.
+. 2018-04-16 17:25:48.271 Listing directory "/home/machinekit/machinekit-configs".
+> 2018-04-16 17:25:48.271 Type: SSH_FXP_OPENDIR, Size: 44, Number: 1547
+< 2018-04-16 17:25:48.271 Type: SSH_FXP_STATUS, Size: 24, Number: 1284
+. 2018-04-16 17:25:48.271 Discarding reserved response
+< 2018-04-16 17:25:48.271 Type: SSH_FXP_HANDLE, Size: 13, Number: 1547
+> 2018-04-16 17:25:48.271 Type: SSH_FXP_READDIR, Size: 13, Number: 1804
+< 2018-04-16 17:25:48.286 Type: SSH_FXP_NAME, Size: 10017, Number: 1804
+> 2018-04-16 17:25:48.286 Type: SSH_FXP_READDIR, Size: 13, Number: 2060
+< 2018-04-16 17:25:48.302 Type: SSH_FXP_STATUS, Size: 28, Number: 2060
+< 2018-04-16 17:25:48.302 Status code: 1
+> 2018-04-16 17:25:48.302 Type: SSH_FXP_CLOSE, Size: 13, Number: 2308
+. 2018-04-16 17:25:48.302 cooltool.qbs;-;1874;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 paralell_cape2018.bbio;-;1228;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 images;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 video.ini;-;94;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 relay_floodV2.hal;-;182;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3_sw_scv2.ini;-;6908;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 run.py;-;2782;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_z.hal;-;423;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_probe.hal;-;105;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 base_bbb_robot.hal;-;2378;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3v2.ini;-;7924;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 pinconfig_bbb_Unimat_sw_robot.hal;-;3180;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-cut-3Dv2.ini;-;9856;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 axis_z.hal;-;1015;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-mill-cncv2.ini;-;7766;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_b.hal;-;179;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 pinconfig_bbb_standard_Unimat_EstopV2.hal;-;3555;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_Estopv2.ini;-;8180;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 autosave.halscope;-;80;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 pinconfig_bbb_standard_Unimat-3DV2.hal;-;3507;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 pinconfig_bbb_standard_UnimatV2.hal;-;3507;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_probe_parallel.hal;-;135;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 axis_c.hal;-;1016;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-h3_Estopv2.ini;-;7853;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_sw_scv2.ini;-;6909;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 axis_xy.hal;-;2119;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_y-S4.hal;-;65;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_a.hal;-;427;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 relay_spindleV2.hal;-;233;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-drehv2.ini;-;6963;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_sw_Estopv2.ini;-;6670;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 UNI-PRINT-3D;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_x.hal;-;423;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 git.sha;-;158;2018-04-16T15:23:02.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 ..;d;4096;2018-04-16T15:25:31.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-cut-2Dv2.ini;-;7707;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_sw_sc_Estopv2.ini;-;6915;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_y.hal;-;423;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 spindle_stepgen.hal;-;1215;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 buzzer.hal;-;90;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_sw_sc_robot.ini;-;6710;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 axis_b.hal;-;1015;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 base_bbb_2018.hal;-;2545;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-h3v2.ini;-;7847;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3_Estopv2.ini;-;8185;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 UniTurn4300v2.ini;-;6970;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_swv2.ini;-;6664;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 .gitignore;-;65;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rw-r--r--;2
+. 2018-04-16 17:25:48.302 UniTurn2000v2.ini;-;6970;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_sc_Estopv2.ini;-;6688;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3_sw_sc_Estopv2.ini;-;6914;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 paralell_cape2_robot.bbio;-;1022;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 axis_a.hal;-;1015;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 axis_manualtoolchange.hal;-;353;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3_scv2.ini;-;6631;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Test_konfig_6axes.ini;-;8291;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3_swv2.ini;-;6663;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 rs274ngc.var.bak;-;1666;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3_sw_Estopv2.ini;-;6669;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-v3_sc_Estopv2.ini;-;6637;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 limit_xyz_parallel.hal;-;1003;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 robot_io.hal;-;192;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 stepper.tbl;-;136;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 turning_stepper.tbl;-;136;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 launcher.ini;-;5968;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 README.md;-;97;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-dreh_Estopv2.ini;-;7125;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 position.txt;-;182;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4_scv2.ini;-;6670;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 relay_mistV2.hal;-;172;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 milling_stepper.tbl;-;1921;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 Uni-fraes-4v2.ini;-;8016;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:48.302 rs274ngc.var;-;1666;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 Changing directory to "UNI-PRINT-3D".
+. 2018-04-16 17:25:52.467 Getting real path for '/home/machinekit/machinekit-configs/UNI-PRINT-3D'
+> 2018-04-16 17:25:52.467 Type: SSH_FXP_REALPATH, Size: 57, Number: 2576
+< 2018-04-16 17:25:52.467 Type: SSH_FXP_STATUS, Size: 24, Number: 2308
+. 2018-04-16 17:25:52.467 Discarding reserved response
+< 2018-04-16 17:25:52.467 Type: SSH_FXP_NAME, Size: 117, Number: 2576
+. 2018-04-16 17:25:52.467 Real path is '/home/machinekit/machinekit-configs/UNI-PRINT-3D'
+. 2018-04-16 17:25:52.467 Trying to open directory "/home/machinekit/machinekit-configs/UNI-PRINT-3D".
+> 2018-04-16 17:25:52.467 Type: SSH_FXP_LSTAT, Size: 57, Number: 2823
+< 2018-04-16 17:25:52.467 Type: SSH_FXP_ATTRS, Size: 37, Number: 2823
+. 2018-04-16 17:25:52.467 Getting current directory name.
+. 2018-04-16 17:25:52.467 Listing directory "/home/machinekit/machinekit-configs/UNI-PRINT-3D".
+> 2018-04-16 17:25:52.467 Type: SSH_FXP_OPENDIR, Size: 57, Number: 3083
+< 2018-04-16 17:25:52.467 Type: SSH_FXP_HANDLE, Size: 13, Number: 3083
+> 2018-04-16 17:25:52.467 Type: SSH_FXP_READDIR, Size: 13, Number: 3340
+< 2018-04-16 17:25:52.467 Type: SSH_FXP_NAME, Size: 2853, Number: 3340
+> 2018-04-16 17:25:52.467 Type: SSH_FXP_READDIR, Size: 13, Number: 3596
+< 2018-04-16 17:25:52.467 Type: SSH_FXP_STATUS, Size: 28, Number: 3596
+< 2018-04-16 17:25:52.467 Status code: 1
+> 2018-04-16 17:25:52.467 Type: SSH_FXP_CLOSE, Size: 13, Number: 3844
+. 2018-04-16 17:25:52.467 tool.tbl;-;121;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 images;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 video.ini;-;94;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 run.py;-;2231;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 README.org;-;445;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 subroutines;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 launcher_P0.ini;-;270;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 hardware.py;-;8961;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 UNI-PRINT-3D.qbs;-;389;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 run_sim.py;-;2157;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 uni_print_3d.py;-;4299;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 ..;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 .gitignore;-;51;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;2
+. 2018-04-16 17:25:52.467 UNI-PRINT-3D.ini;-;12425;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 UNI-PRINT-3D_P0.ini;-;10642;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 paralell_cape3.bbio;-;666;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 sim.py;-;4078;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 pru-stepper.var.bak;-;1666;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 launcher_UP.ini;-;448;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 storage.ini;-;342;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 thermistor_check.icomp;-;4425;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:52.467 pru-stepper.var;-;1666;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:53.637 Changing directory to "images".
+. 2018-04-16 17:25:53.637 Getting real path for '/home/machinekit/machinekit-configs/UNI-PRINT-3D/images'
+> 2018-04-16 17:25:53.637 Type: SSH_FXP_REALPATH, Size: 64, Number: 4112
+< 2018-04-16 17:25:53.637 Type: SSH_FXP_STATUS, Size: 24, Number: 3844
+. 2018-04-16 17:25:53.637 Discarding reserved response
+< 2018-04-16 17:25:53.637 Type: SSH_FXP_NAME, Size: 131, Number: 4112
+. 2018-04-16 17:25:53.637 Real path is '/home/machinekit/machinekit-configs/UNI-PRINT-3D/images'
+. 2018-04-16 17:25:53.637 Trying to open directory "/home/machinekit/machinekit-configs/UNI-PRINT-3D/images".
+> 2018-04-16 17:25:53.637 Type: SSH_FXP_LSTAT, Size: 64, Number: 4359
+< 2018-04-16 17:25:53.653 Type: SSH_FXP_ATTRS, Size: 37, Number: 4359
+. 2018-04-16 17:25:53.653 Getting current directory name.
+. 2018-04-16 17:25:53.653 Listing directory "/home/machinekit/machinekit-configs/UNI-PRINT-3D/images".
+> 2018-04-16 17:25:53.653 Type: SSH_FXP_OPENDIR, Size: 64, Number: 4619
+< 2018-04-16 17:25:53.653 Type: SSH_FXP_HANDLE, Size: 13, Number: 4619
+> 2018-04-16 17:25:53.653 Type: SSH_FXP_READDIR, Size: 13, Number: 4876
+< 2018-04-16 17:25:53.653 Type: SSH_FXP_NAME, Size: 485, Number: 4876
+> 2018-04-16 17:25:53.653 Type: SSH_FXP_READDIR, Size: 13, Number: 5132
+< 2018-04-16 17:25:53.653 Type: SSH_FXP_STATUS, Size: 28, Number: 5132
+< 2018-04-16 17:25:53.653 Status code: 1
+> 2018-04-16 17:25:53.653 Type: SSH_FXP_CLOSE, Size: 13, Number: 5380
+. 2018-04-16 17:25:53.653 Uni-Print-3D_P1.jpg;-;276157;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:53.653 ..;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:25:53.653 Uni-Print-3D.jpg;-;110560;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:26:14.713 Copying 1 files/directories to remote directory "/home/machinekit/machinekit-configs/UNI-PRINT-3D/images/"
+. 2018-04-16 17:26:14.713   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: Yes; Mask: *.*
+. 2018-04-16 17:26:14.713   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: 
+. 2018-04-16 17:26:14.713   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2018-04-16 17:26:14.728 File: 'I:\DATEN\Graphik\CNC-Unimat-Fotos\Bilder_LinuxCNC\Neuer-Controller\Uni-Print-3D.jpg' [2018-04-12T14:29:24.735Z] [110560]
+. 2018-04-16 17:26:14.728 Copying "I:\DATEN\Graphik\CNC-Unimat-Fotos\Bilder_LinuxCNC\Neuer-Controller\Uni-Print-3D.jpg" to remote directory started.
+. 2018-04-16 17:26:14.728 Binary transfer mode selected.
+. 2018-04-16 17:26:14.728 Checking existence of file.
+> 2018-04-16 17:26:14.728 Type: SSH_FXP_LSTAT, Size: 81, Number: 5639
+< 2018-04-16 17:26:14.728 Type: SSH_FXP_STATUS, Size: 24, Number: 5380
+. 2018-04-16 17:26:14.728 Discarding reserved response
+< 2018-04-16 17:26:14.728 Type: SSH_FXP_ATTRS, Size: 37, Number: 5639
+. 2018-04-16 17:26:14.728 Checking existence of partially transfered file.
+> 2018-04-16 17:26:14.728 Type: SSH_FXP_LSTAT, Size: 90, Number: 5895
+< 2018-04-16 17:26:14.728 Type: SSH_FXP_STATUS, Size: 29, Number: 5895
+< 2018-04-16 17:26:14.728 Status code: 2
+. 2018-04-16 17:26:14.728 Asking user:
+. 2018-04-16 17:26:14.728 **Overwrite remote file 'Uni-Print-3D.jpg'?**
+. 2018-04-16 17:26:14.728 
+. 2018-04-16 17:26:14.728 Destination directory already contains file 'Uni-Print-3D.jpg'.
+. 2018-04-16 17:26:14.728 Choose, if you want to overwrite the file or skip this transfer and keep existing file.
+. 2018-04-16 17:26:14.728  
+. 2018-04-16 17:26:14.728 New:      	110.560 bytes, 12.04.2018 16:29:24
+. 2018-04-16 17:26:14.728 Existing: 	110.560 bytes, 16.04.2018 17:20:32 ()
+. 2018-04-16 17:26:16.242 Opening remote file.
+> 2018-04-16 17:26:16.242 Type: SSH_FXP_OPEN, Size: 106, Number: 6147
+< 2018-04-16 17:26:16.242 Type: SSH_FXP_HANDLE, Size: 13, Number: 6147
+> 2018-04-16 17:26:16.242 Type: SSH_FXP_WRITE, Size: 4121, Number: 6662
+. 2018-04-16 17:26:16.273 9 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2018-04-16 17:26:16.273 Type: SSH_FXP_CLOSE, Size: 13, Number: 8452
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 7430
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 7686
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 7942
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 8198
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 8452
+< 2018-04-16 17:26:16.288 Status code: 0
+> 2018-04-16 17:26:16.288 Type: SSH_FXP_REMOVE, Size: 81, Number: 8717
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 8717
+< 2018-04-16 17:26:16.288 Status code: 0
+> 2018-04-16 17:26:16.288 Type: SSH_FXP_RENAME, Size: 166, Number: 8978
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 8978
+< 2018-04-16 17:26:16.288 Status code: 0
+. 2018-04-16 17:26:16.288 Preserving timestamp [2018-04-12T14:29:24.000Z]
+> 2018-04-16 17:26:16.288 Type: SSH_FXP_SETSTAT, Size: 97, Number: 6409
+< 2018-04-16 17:26:16.288 Type: SSH_FXP_STATUS, Size: 24, Number: 6409
+< 2018-04-16 17:26:16.288 Status code: 0
+. 2018-04-16 17:26:16.304 Listing directory "/home/machinekit/machinekit-configs/UNI-PRINT-3D/images".
+> 2018-04-16 17:26:16.304 Type: SSH_FXP_OPENDIR, Size: 64, Number: 9227
+< 2018-04-16 17:26:16.304 Type: SSH_FXP_HANDLE, Size: 13, Number: 9227
+> 2018-04-16 17:26:16.304 Type: SSH_FXP_READDIR, Size: 13, Number: 9484
+< 2018-04-16 17:26:16.304 Type: SSH_FXP_NAME, Size: 485, Number: 9484
+> 2018-04-16 17:26:16.304 Type: SSH_FXP_READDIR, Size: 13, Number: 9740
+< 2018-04-16 17:26:16.304 Type: SSH_FXP_STATUS, Size: 28, Number: 9740
+< 2018-04-16 17:26:16.304 Status code: 1
+> 2018-04-16 17:26:16.304 Type: SSH_FXP_CLOSE, Size: 13, Number: 9988
+. 2018-04-16 17:26:16.304 Uni-Print-3D_P1.jpg;-;276157;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:26:16.304 ..;d;4096;2018-04-16T15:20:32.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:26:16.304 Uni-Print-3D.jpg;-;110560;2018-04-12T14:29:24.000Z;"machinekit" [1001];"machinekit" [1001];rwxr-xr-x;0
+. 2018-04-16 17:26:19.190 Closing connection.
+. 2018-04-16 17:26:19.190 Sending special code: 12
+. 2018-04-16 17:26:19.190 Sent EOF message
