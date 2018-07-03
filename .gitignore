@@ -2,7 +2,7 @@
 .directory
 
 # Python
-.pyc
+*.pyc
 
 # QML
-.qmlc
+*.qmlc
