@@ -18,7 +18,11 @@ Image {
         var languageMap = {
           "de": "german",
           "ru": "russian",
+<<<<<<< HEAD
           "es": "spanish",
+=======
+          //"es": "spanish",
+>>>>>>> d5139606158d7ca6bfb3dcb734254038d19781a1
           "en": "english",
           //"uk": "ukranian",
           //"it": "italian",
@@ -74,6 +78,7 @@ Image {
             onTriggered: root.setLanguage("ru")
         }
 
+<<<<<<< HEAD
         MenuItem {
             text: qsTr("Spanish")
             iconSource: "qrc:Machinekit/Application/Controls/icons/flag-spanish"
@@ -83,6 +88,8 @@ Image {
             onTriggered: root.setLanguage("es")
         }
 
+=======
+>>>>>>> d5139606158d7ca6bfb3dcb734254038d19781a1
         ExclusiveGroup {
             id: exclusiveGroup
         }
