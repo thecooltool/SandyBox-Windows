@@ -1,13 +1,13 @@
-﻿; CheckForPlatformSplashDisable 1.0 (2010-06-16)
+﻿; CheckForPlatformSplashDisable 1.1 (2016-11-19)
 ;
 ; Checks if the platform wants the splash screen disabled
-; Copyright 2008-2010 John T. Haller of PortableApps.com
+; Copyright 2008-2016 John T. Haller of PortableApps.com
 ; Released under the GPL
 ;
 ; Usage: ${CheckForPlatformSplashDisable} _v
 ;
-; Example: ${CheckForPlatformSplashDisable} $DISABLESPLASHSCREEN
-;    If the platform wants it disabled, $DISABLESPLASHSCREEN will be true.
+; Example: ${CheckForPlatformSplashDisable} $DisableSplashScreen
+;    If the platform wants it disabled, $DisableSplashScreen will be true.
 ;    Otherwise it will be whatever its previous value was
 
 !macro CheckForPlatformSplashDisable _v
@@ -21,7 +21,7 @@
 
 		;Read from the INI
 		ReadEnvStr $1 PortableApps.comDisableSplash
-		StrCmp $1 "true" "" _CFPSDStackEnd
+		StrCmp $1 true "" _CFPSDStackEnd
 
 		${GetParent} $EXEDIR $1
 		IfFileExists $1\PortableApps.com\PortableAppsPlatform.exe "" _CFPSDStackEnd
@@ -34,11 +34,7 @@
 		Pop $R0
 		StrCmp $R0 PortableApps.com "" _CFPSDStackEnd
 
-		!ifdef NSIS_UNICODE
-		FindProc $R0 PortableAppsPlatform.exe
-		!else
 		FindProcDLL::FindProc PortableAppsPlatform.exe ; Onto $R0
-		!endif
 		IntCmp $R0 1 "" _CFPSDStackEnd _CFPSDStackEnd
 
 		StrCpy $0 true

@@ -1,4 +1,4 @@
-﻿;Copyright (C) 2004-2012 John T. Haller of PortableApps.com
+﻿;Copyright (C) 2004-2017 John T. Haller of PortableApps.com
 
 ;Website: http://portableapps.com/WinSCPPortable
 
@@ -22,8 +22,8 @@
 !define PORTABLEAPPNAME "WinSCP Portable"
 !define APPNAME "WinSCP"
 !define NAME "WinSCPPortable"
-!define VER "1.6.7.0"
-!define WEBSITE "PortableApps.com/WinSCPPortable"
+!define VER "1.6.9.0"
+!define WEBSITE "http://portableapps.com/apps/internet/winscp_portable"
 !define DEFAULTEXE "WinSCP.exe"
 !define DEFAULTAPPDIR "WinSCP"
 !define LAUNCHERLANGUAGE "English"
@@ -53,6 +53,8 @@ SilentInstall Silent
 AutoCloseWindow True
 RequestExecutionLevel user
 XPStyle On
+Unicode true
+ManifestDPIAware true
 
 ; Best Compression
 SetCompress Auto
@@ -64,6 +66,7 @@ SetDatablockOptimize On
 ;(Standard NSIS)
 !include FileFunc.nsh
 !insertmacro GetParameters
+!include LogicLib.nsh
 !include WordFunc.nsh
 !insertmacro WordReplace
 
@@ -141,11 +144,16 @@ Section "Main"
 	RestoreSettings:
 		WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "RandomSeedFile" "%2E%2E%5C%2E%2E%5CData%5Csettings%5Cwinscp.rnd"
 		WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "DDTemporaryDirectory" "%2E%5C"
-		WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "PuttySession" "WinSCP%20Portable%20Temporary%20Session"
-		StrCpy $0 `$PROGRAMDIRECTORY\PuTTYPortableLinker.exe`
-		;${StrReplace} $1 "\" "%5C" $0
-		${WordReplace} $0 "\" "%5C" "+" $1
-		WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "PuttyPath" "$1"
+		${GetParent} $EXEDIR $0
+		${If} ${FileExists} "$0\PuTTYPortable\PuTTYPortable.exe"
+			WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "PuttySession" "WinSCP%20Portable%20Temporary%20Session"
+			StrCpy $0 `$PROGRAMDIRECTORY\PuTTYPortableLinker.exe`
+			${WordReplace} $0 "\" "%5C" "+" $1
+			WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "PuttyPath" "$1"
+		${ElseIf} ${FileExists} "$0\KiTTYPortable\KiTTYPortable.exe"
+			;WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "PuttySession" ""
+			WriteINIStr "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "PuttyPath" `"$0\KiTTYPortable\KiTTYPortable.exe" !U@!@ -P !# -title "!N"`
+		${EndIf}
 		
 	;GetCurrentLanguage
 		ReadINIStr $0 "$SETTINGSDIRECTORY\winscp.ini" "Configuration\Interface" "LocaleSafe"
@@ -198,6 +206,8 @@ Section "Main"
 			IfFileExists `$PROGRAMDIRECTORY\winscp.jp` SetNewLanguage LaunchNow	
 		StrCmp $1 "1042" "" +2 ;Korean
 			IfFileExists `$PROGRAMDIRECTORY\winscp.ko` SetNewLanguage LaunchNow
+		StrCmp $1 "1251" "" +2 ;Macedonian
+			IfFileExists `$PROGRAMDIRECTORY\winscp.mx` SetNewLanguage LaunchNow
 		StrCmp $1 "1086" "" +2 ;Malay
 			IfFileExists `$PROGRAMDIRECTORY\winscp.ms` SetNewLanguage LaunchNow
 		StrCmp $1 "1043" "" +2 ;Dutch

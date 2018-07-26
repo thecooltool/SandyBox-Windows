@@ -1,4 +1,4 @@
-﻿;Copyright (C) 2004-2012 John T. Haller of PortableApps.com
+﻿;Copyright (C) 2004-2017 John T. Haller of PortableApps.com
 
 ;Website: http://portableapps.com/PuTTYPortable
 
@@ -22,7 +22,7 @@
 !define NAME "PuTTYPortableLinker"
 !define FULLNAME "PuTTY Portable Linker"
 !define APP "PuTTY"
-!define VER "1.6.3.0"
+!define VER "1.6.4.0"
 !define WEBSITE "PortableApps.com/WinSCPPortable"
 
 ;=== Program Details
@@ -50,6 +50,8 @@ SilentInstall Silent
 AutoCloseWindow True
 RequestExecutionLevel user
 XPStyle On
+Unicode true
+ManifestDPIAware true
 
 ;=== Include
 ;(Standard NSIS)
