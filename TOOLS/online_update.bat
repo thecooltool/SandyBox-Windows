@@ -7,7 +7,8 @@ cd ..\..\
 cd ..
 cd ..\System\update
 
-start "SandyBox Updater" "cmd /K %cd%\Python\python.exe update.py"
+rem start "SandyBox Updater" %cd%\Python\python.exe update.py
+cmd /K %cd%\Python\python.exe update.py
 goto :EOF
 
 :ssh-error
