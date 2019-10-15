@@ -26,6 +26,15 @@ import Machinekit.PathView 1.0
 import Machinekit.Application 1.0
 
 ApplicationItem {
+    /*! If this property is set to \c{true}, the preview loads automatically when
+        the remote program is changed.
+        In some cases it might be preferred to update the preview manually, this can
+        be done using the \l updatePreview function.
+
+        The default value is \c{true}.
+    */
+    property bool autoPreview: true
+
     property alias gcodeProgramModel: gcodeProgramModel
     property alias gcodeProgramLoader: gcodeProgramLoader
     property alias previewClient: previewClient
@@ -87,7 +96,8 @@ ApplicationItem {
             if (previewEnabled
                 && (file.remoteFilePath !== "")
                 && (file.localFilePath !== "")
-                && (file.transferState === ApplicationFile.NoTransfer))
+                && (file.transferState === ApplicationFile.NoTransfer)
+                && autoPreview)
             {
                 executePreview();
             }
@@ -96,17 +106,15 @@ ApplicationItem {
         function reloadModelAndPreview() {
             gcodeProgramModel.clear();
             gcodeProgramLoader.load();
-            if (previewEnabled) {
+            if (previewEnabled && autoPreview) {
                 executePreview();
             }
         }
 
         function executePreview() {
-            if (file.remoteFilePath.split('.').pop() === 'ngc') {   // only open ngc files
-                gcodeProgramModel.clearPreview();
-                command.openProgram('preview', file.remoteFilePath);
-                command.runProgram('preview', 0);
-            }
+            gcodeProgramModel.clearPreview();
+            command.openProgram('preview', file.remoteFilePath);
+            command.runProgram('preview', 0);
         }
     }
 
