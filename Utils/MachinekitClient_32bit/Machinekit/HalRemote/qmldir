@@ -1,5 +1,0 @@
-module Machinekit.HalRemote
-plugin machinekithalremoteplugin
-classname MachinekitHalRemotePlugin
-typeinfo plugins.qmltypes
-designersupported
