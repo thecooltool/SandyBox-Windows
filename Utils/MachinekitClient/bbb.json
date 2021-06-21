@@ -1,0 +1,12 @@
+{
+    "autoSelectInstance": true,
+    "autoSelectApplication": true,
+    "lookupMode": 1,
+    "mode": "remote",
+    "nameServers": [
+        {
+            "hostName": "192.168.7.2",
+            "port": 5353
+        }
+    ]
+}
